@@ -1,0 +1,29 @@
+{
+  "name": "netflix",
+  "description": "Pagina da implementare su TIMVision",
+  "main": "index.html",
+  "authors": [
+    "Nicola De Lazzari"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "netflix",
+    "timvision"
+  ],
+  "homepage": "https://github.com/HartSrlMassimilianoVentimiglia/tim_manutenzione",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.12.0",
+    "hammerjs": "~2.0.4",
+    "picturefill": "~3.0.1",
+    "svg4everybody": "~2.0.0",
+    "es6-promise": "~3.0.2"
+  }
+}

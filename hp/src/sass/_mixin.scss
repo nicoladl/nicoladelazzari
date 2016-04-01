@@ -1,0 +1,186 @@
+// Breakpoints
+$sp: max-width 480px; // Smartphone
+$spu: min-width 481px; // Smartphone
+
+$tpu: max-width 767px; // Tablet potrait
+$tp: min-width 768px; // Tablet potrait until
+
+$tl: max-width 1024px; // Tablet landscape
+$tlu: min-width 1025px; // Tablet landscape until
+
+$page: max-width 981px; // page viewport
+
+$dl: 1280px; // Desktop & Laptop
+$ws: min-width 1680px; // wide screen
+
+//COLORS
+$blue:#004990;
+$grey:#808080;
+
+@mixin smartphone() {
+    @include breakpoint($sp) {
+        @content;
+    }
+}
+
+@mixin smartphoneuntil() {
+    @include breakpoint($spu) {
+        @content;
+    }
+}
+
+@mixin mobile() {
+    @include breakpoint($tpu) {
+        @content;
+    }
+}
+
+@mixin tablet() {
+    @include breakpoint($tp) {
+        @content;
+    }
+}
+
+@mixin desktop() {
+    @include breakpoint($tl) {
+        @content;
+    }
+}
+
+@mixin desktopuntil() {
+    @include breakpoint($tlu) {
+        @content;
+    }
+}
+
+@mixin widescreen() {
+    @include breakpoint($ws) {
+        @content;
+    }
+}
+
+@mixin page() {
+  @include breakpoint($page) {
+      @content;
+  }
+}
+
+@mixin clearfix() {
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+@mixin ratio($containerwidth, $ratiowidth, $ratioheight) {
+    position: relative;
+    width: $containerwidth;
+    height: 0;
+    padding: (($ratioheight / $ratiowidth) * $containerwidth) 0 0 0;
+}
+
+@mixin prefix($property, $value, $prefixes: ()) {
+  @each $prefix in $prefixes {
+    #{'-' + $prefix + '-' + $property}: $value;
+  }
+
+  // Output standard non-prefixed declaration
+  #{$property}: $value;
+}
+
+@mixin wrapper {
+    .wrapper {
+        width: 980px;
+        height: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@mixin sonar {
+
+    .dot {
+        left: 50%;
+        width: 10px;
+        height: 10px;
+        @include prefix(border-radius, 50%, webkit moz ms o);
+        background-color: $blueTIM;
+        position: absolute;
+        margin-left: -5px;
+
+        @include mobile { display: none }
+
+        &.sonar {
+            .sonar-emit {
+                width: 10px;
+                height: 10px;
+                background-color: $blueTIM;
+                position: absolute;
+                left: 50%;
+                margin-left: -5px;
+                @include prefix(border-radius, 50%, webkit moz ms o);
+
+                .sonar-wave-big {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                  background-color: $blueTIM;
+                  z-index: -1;
+                  pointer-events: none;
+                  @include prefix(border-radius, 50%, webkit moz ms o);
+                  -webkit-transform: translate3d(0, 0, 0);
+
+                  &.wave {
+                      @include prefix(animation, sonar-wave-big 2s linear infinite, webkit moz ms o);
+                      -webkit-transform: translate3d(0, 0, 0) translate(-50%,-50%);
+                  }
+                }
+                .sonar-wave {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: $blueTIM;
+                    z-index: -1;
+                    pointer-events: none;
+                    @include prefix(border-radius, 100%, webkit moz ms o);
+
+                    @include mobile { display: none }
+
+                    &.wave {
+                        @include prefix(animation, sonar-wave 1s linear infinite, webkit moz ms o);
+                    }
+
+                    @keyframes sonar-wave {
+                        from {
+                            opacity: 0.4;
+                        }
+                        to {
+                            width: 50px;
+                            height: 50px;
+                            opacity: 0;
+                        }
+                    }
+
+                    @keyframes sonar-wave-big {
+                        from {
+                            opacity: 0.4;
+                        }
+                        to {
+                            width: 200px;
+                            height: 200px;
+                            opacity: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
