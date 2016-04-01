@@ -21,8 +21,3 @@ var myScrollWatcher = scrollWatcher(elm, {
       elm.classList.remove('alive');
     }
 });
-
-var bh = $(document);
-bh.on('scroll', function() {
-
-});
