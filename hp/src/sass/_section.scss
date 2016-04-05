@@ -1,0 +1,45 @@
+.section {
+	height: auto;
+	padding: 10% 5%;
+	padding-bottom: 20%;
+	box-sizing: border-box;
+	font-family: 'Lora', serif;
+	position: relative;
+	z-index: 1;
+
+	&--white {
+		background: $white;
+
+		.top-slice {
+			border-right: 100vw solid $white;
+		}
+	}
+
+	&--main-color {
+		background: $mainColor;
+
+		.top-slice {
+			border-right: 100vw solid $mainColor;
+		}
+	}
+
+	&--black {
+		background: $black;
+
+		.top-slice {
+			border-right: 100vw solid $black;
+		}
+	}
+
+	.top-slice {
+		position: absolute;
+		top: -100px;
+		right: 0;
+		border-top: 100px solid transparent;
+  	border-left: 0 solid transparent;
+	}
+
+	&--aligner { text-align: center }
+	&--auto { height: auto }
+	&--100 { height: 100vh }
+}

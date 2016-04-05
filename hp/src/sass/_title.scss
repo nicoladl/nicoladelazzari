@@ -1,0 +1,14 @@
+.title {
+	font-family: 'Open Sans', serif;
+	font-size: 3em;
+	box-sizing: border-box;
+
+	@include mobile {
+		font-size: 1em
+	}
+
+	&--bigger { font-size: 7em }
+	&--color { color: $textBase }
+	&--uppercase { text-transform: uppercase }
+	&--lora { font-family: 'Lora', serif; font-weight: 400; }
+}

@@ -1,0 +1,23 @@
+.text {
+	color: $white;
+	font-size: 2em;
+	box-sizing: border-box;
+	float: left;
+	line-height: 1.5em;
+
+	&__index {
+		padding: 0 5%;
+		width: 40%;
+		color: $textIndex;
+		text-align: right;
+
+		&--big { font-size: 3em }
+		&--uppercase { text-transform: uppercase }
+	}
+
+	&__definition {
+		width: 60%;
+		color: $textDefinition;
+		text-align: left;
+	}
+}

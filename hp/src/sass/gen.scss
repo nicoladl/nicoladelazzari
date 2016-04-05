@@ -1,14 +1,21 @@
+// Base
 @import 'vendor/breakpoint';
 @import 'mixin.scss';
 @import 'variables.scss';
 @import 'reset.scss';
 @import 'font.scss';
 
+// Mixin
 @import 'hamburger/hamburger.scss';
-
 @import 'mixin/mixin.scss';
 
-@import 'hat.scss';
+// Format
+@import 'text.scss';
+@import 'title.scss';
 @import 'layout.scss';
+
+// Structure
+@import 'hat.scss';
 @import 'menu.scss';
+@import 'section.scss';
 @import 'divider.scss';
