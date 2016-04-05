@@ -1,109 +1,84 @@
 body {
-	background-color: $body;
-	margin-left: 5%;
-
-	@include mobile {
-		margin-left: 0;
-	}
-
-	#sidebar {
-		width: 5%;
-		height: 100vh;
-		border-right: 1px solid $black;
-		background-color: $body;
-		position: fixed;
-		left: 0;
-		top: 0;
-		z-index: 2;
-
-		@include mobile {
-			top: 0;
-			left: 0;
-			width: 100vw;
-			height: 10%;
-			border-bottom: 1px solid $black;
-		}
-	}
+	font-size: 14px;
 
 	.section {
 		height: auto;
-		position: relative;
-		font-family: 'Lato', sans-serif;
-		padding: 10% 0;
+		padding: 10% 5%;
+		padding-bottom: 20%;
 		box-sizing: border-box;
+		font-family: 'Lora', serif;
+		position: relative;
+		z-index: 1;
 
-		&:nth-child(odd) {
-			background-color: $black;
+		&--white {
+			background: $white;
 
 			.top-slice {
-				border-right: 95vw solid $body;
+				border-right: 100vw solid $white;
 			}
 		}
 
-		&:nth-child(even) {
-			background-color: $body;
+		&--main-color {
+			background: $mainColor;
 
 			.top-slice {
-				border-right: 95vw solid $black;
+				border-right: 100vw solid $mainColor;
+			}
+		}
+
+		&--black {
+			background: $black;
+
+			.top-slice {
+				border-right: 100vw solid $black;
 			}
 		}
 
 		.top-slice {
 			position: absolute;
-			bottom: 0;
+			top: -100px;
 			right: 0;
 			border-top: 100px solid transparent;
     	border-left: 0 solid transparent;
 		}
 
-		&.section--aligner { text-align: center }
-		&.section--auto { height: auto; }
-		&.section--100 { height: 100vh; }
+		&--aligner { text-align: center }
+		&--auto { height: auto }
+		&--100 { height: 100vh }
 
 		.title {
-			font-size: 2em;
+			font-family: 'Open Sans', serif;
+			font-size: 3em;
 			box-sizing: border-box;
 
 			@include mobile {
 				font-size: 1em
 			}
 
-			&.title--bigger { 
-				font-size: 5em;
-
-				@include mobile {
-					font-size: 3em
-				}
-			}
-			&.title--white { color: $white }
-			&.title--vcenter { 
-				padding-top: 10%;
-
-				@include mobile {
-					padding-top: 40%;
-				}
-			}
-			&.title--uppercase { text-transform: uppercase }
+			&--bigger { font-size: 7em }
+			&--color { color: $textBase }
+			&--uppercase { text-transform: uppercase }
+			&--lora { font-family: 'Lora', serif; font-weight: 400; }
 		}
 
 		.text {
 			color: $white;
-			float: left;
 			font-size: 2em;
-			padding: 0 5%;
 			box-sizing: border-box;
-			margin-top: 5%;
 
-			&.text__index {
+			&__index {
+				padding: 0 5%;
+				margin-top: 5%;
+				float: left;
 				width: 40%;
 				color: $textIndex;
 				text-align: right;
 
-				&.text--big { font-size: 3em }
-				&.text--uppercase { text-transform: uppercase }
+				&--big { font-size: 3em }
+				&--uppercase { text-transform: uppercase }
 			}
 
-			&.text__definition {
+			&__definition {
 				width: 60%;
 				color: $textDefinition;
 				line-height: 1.5em;

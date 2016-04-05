@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>title</title>
+    <title>Nicola De Lazzari</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
@@ -11,17 +11,27 @@
   </head>
   <body>
 
-    <div id="sidebar"></div>
+    <div class="hat">
+      <button class="hamburger hamburger--spin-r" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    </div>
 
-    <div class="section section--aligner section--100">
-      <div class="top-slice"></div>
+    <div class="section section--main-color section--100 section--first" id="home">
 
-      <h1 class="title title--white title--vcenter title--bigger">Headline h1</h1>
-      <h2 class="title title--white title--uppercase">Headline h2</h2>
+      <h1 class="title title--color title--bigger">Headline h1</h1>
+      <div class="divider divider--little"></div>
+      
+      <h2 class="title title--color title--lora">Headline h2</h2>
+      
+
 
       <div style="clear: both;"></div> 
     </div>
-    <div class="section section--aligner section--double">
+
+    <div class="section section--white section--aligner section--double" id="about">
       <div class="top-slice"></div>
 
       <div class="text text__index text--big text--uppercase">index 1</div>
@@ -32,13 +42,30 @@
 
       <div style="clear: both;"></div> 
     </div>
-    <div class="section section--aligner">
+
+    <div class="section section--black section--aligner" id="contact">
       <div class="top-slice"></div>
 
       <div class="text text__index text--big text--uppercase">index 1</div>
       <div class="text text__definition">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
 
       <div style="clear: both;"></div>
+    </div>
+
+    <div>
+      <nav class="menu">
+        <ul class="menu__navigator menu__navigator--center">
+          <li class="menu__item">
+            <a href="#home" class="menu__link menu__link--uppercase menu__link--bold">Home</a>
+          </li>
+          <li class="menu__item">
+            <a href="#about" class="menu__link menu__link--uppercase menu__link--bold">About</a>
+          </li>
+          <li class="menu__item">
+            <a href="#contact" class="menu__link menu__link--uppercase menu__link--bold">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </div>
 
     <script src="js/vendor/plugins.js"></script>
