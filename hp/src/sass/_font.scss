@@ -1,0 +1,15 @@
+$fontPath: '../font';
+$fonts: (
+  'Fibon': 'Fibon_Sans_Regular'
+);
+
+@each $name, $fileName in $fonts {
+  @font-face {
+      font-family: $name;
+      src: url( $fontPath + '/' + $fileName + '.otf' ) format('opentype');
+      font-weight: normal;
+      font-style: normal;
+  }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700|Lora:400,700);
