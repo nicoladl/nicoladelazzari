@@ -1,0 +1,29 @@
+.backtotop {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 999;
+
+	width: 30px;
+	height: 30px;
+	color: $white;
+	font-size: 1em;
+	text-align: center;
+
+	cursor: pointer;
+	display: block;
+
+	&--box {
+		background: red;
+		border-radius: 2px;
+	}
+
+	&__icon {
+		&--center {
+			position: relative;
+			top: calc(50% - 7px);
+		}
+	}
+
+	&--disable { display: none }
+}

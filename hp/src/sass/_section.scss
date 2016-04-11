@@ -7,19 +7,19 @@
 	position: relative;
 	z-index: 1;
 
-	&--white {
-		background: $white;
-
-		.top-slice {
-			border-right: 100vw solid $white;
-		}
-	}
-
 	&--main-color {
 		background: $mainColor;
 
 		.top-slice {
 			border-right: 100vw solid $mainColor;
+		}
+	}
+
+	&--white {
+		background: $white;
+
+		.top-slice {
+			border-right: 100vw solid $white;
 		}
 	}
 
@@ -37,6 +37,11 @@
 		right: 0;
 		border-top: 100px solid transparent;
   	border-left: 0 solid transparent;
+
+  	&--animate {
+  		top: calc(-100vh - 100px);
+  		height: 100vh;
+  	}
 	}
 
 	&--aligner { text-align: center }

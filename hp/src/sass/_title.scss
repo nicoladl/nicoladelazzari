@@ -7,8 +7,15 @@
 		font-size: 1em
 	}
 
-	&--bigger { font-size: 7em }
+	&--bigger { font-size: 8em }
 	&--color { color: $textBase }
 	&--uppercase { text-transform: uppercase }
-	&--lora { font-family: 'Lora', serif; font-weight: 400; }
+	&--lora { font-family: 'Lora', serif; font-weight: 400 }
+	&--margin { margin-bottom: 50px }
+
+	&__hat {
+		line-height: 53px;
+		font-size: 1.5em;
+		padding-left: 15px;
+	}
 }

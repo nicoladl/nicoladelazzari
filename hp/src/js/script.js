@@ -1,7 +1,6 @@
-// Varibles
+// Variables
 var hamburger = document.querySelector('.hamburger'),
-menu          = document.querySelector('.menu'),
-hat           = document.querySelector('.hat');
+menu          = document.querySelector('.menu');
 
 var time = 500;
 
@@ -9,6 +8,7 @@ var time = 500;
 hamburger.addEventListener('click', function() {
 	hamburgerController();
 	menuController();
+	$('.backtotop').toggleClass('backtotop--disable', time);
 });
 
 function whatClicked(evt) {
@@ -23,7 +23,6 @@ function hamburgerController() {
 }
 
 function menuController() {
-	hatController();
   if (menu.classList.contains('menu--show')) {
 		switchClass('menu', 'menu--show', 'menu--hide');  
 	} else {
@@ -31,19 +30,11 @@ function menuController() {
 	}
 }
 
-function hatController() {
-	if ( hat.classList.contains('hat--active') ) {
-    switchClass('hat', 'hat--active', 'hat--disabled');
-	} else {
-    switchClass('hat', 'hat--disabled', 'hat--active');
-	}
-}
-
 function pageScroller(id) {
   var top = $(id).offset().top;
 	$('html, body').animate({
   	scrollTop:top
-  }, time);
+  }, time, 'easeOutCubic');
 }
 
 function switchClass(el, start, to) {
@@ -53,16 +44,16 @@ function switchClass(el, start, to) {
 
 $('.menu-navigator').css('margin-top', - $('.menu-navigator').height() / 2 );
 
-$(document).scroll(function() {
-  var y = $(this).scrollTop();
-  if (y > 53) {
-    $('.hat').stop().animate({
-	  	top: 0
-	  }, time);
-  } 
-  if (y == 0) {
-  	$('.hat').stop().animate({
-	  	top: '-53px'
-	  }, time);
-  }
+$('.backtotop').on('click', function() {
+	$('body, html').animate({
+		scrollTop: 0
+	}, time, 'easeOutCubic');
+});
+
+$(document).ready(function() {
+	$('.top-slice--animate').animate({
+		top: '-100px'
+	}, time*3, 'easeOutCubic', function () {
+		$(this).removeClass('top-slice--animate');
+	});
 });
