@@ -1,0 +1,25 @@
+.bio {
+	margin-bottom: 50px;
+	float: left;
+	text-align: left;
+
+	.text {
+		color: $white;
+		font-size: 2em;
+		box-sizing: border-box;
+		line-height: 1.5em;
+
+		&__index {
+			color: $textIndex;
+			font-family: 'Fibon', sans-serif;
+
+			&--big { font-size: 3em }
+			&--uppercase { text-transform: uppercase }
+		}
+
+		&__definition {
+			color: $textDefinition;
+			text-align: left;
+		}
+	}
+}
