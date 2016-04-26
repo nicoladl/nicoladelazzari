@@ -17,58 +17,91 @@
       </span>
     </button>
 
-    <div class="section section--main-color section--100 section--first" id="home">
+    <div class="section section--main-color section--first" id="home">
 
-      <h1 class="title title--color title--bigger">Headline h1</h1>
-      <div class="divider divider--little"></div>
-      
-      <h2 class="title title--color title--lora title--margin">Headline h2</h2>
+      <div class="headline">
+        <h1 class="title title--white title--bigger">Frontend developer</h1>
+        <div class="divider divider--little divider--white"></div>
+        <h2 class="title title--white title--margin">Nicola De Lazzari</h2>
+      </div>
 
-      <span href="https://twitter.com/nicoladelazzari" class="icon icon__icon-twitter icon--black"></span>
-      <span href="#" class="icon icon__icon-github icon--black"></span>
+      <div class="section--background"></div>
+
       <div style="clear: both;"></div> 
     </div>
 
     <div class="section section--white section--aligner section--double" id="about">
-      <div class="top-slice top-slice--animate"></div>
+      <!-- <div class="top-slice"></div> -->
 
-      <div class="text text__index text--big text--uppercase">index 1</div>
-      <div class="text text__definition">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
+      <div class="bio">
 
-      <div class="text text__index text--big text--uppercase">index 1</div>
-      <div class="text text__definition">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
+        <h2 class="title title--color title--margin title--grey">Nicola De Lazzari is an italian <strong>front end developer</strong> living in Treviso.<br />
+        He had the privilege of working with companies such as <strong>TIM</strong>, <strong>Telecom Italia</strong>, <strong>TIMRace</strong> & more.<br />
+        Now working for <strong>H-ART</strong>.
+        </h2>
+
+        <div class="text text__index text--big text--uppercase">From my Linkedin profile</div>
+        <div class="text text__definition">
+          <ul>
+            <li>ciao</li>
+            <li>ciao</li>
+            <li>ciao</li>
+          </ul>
+        </div>
+      </div>
 
       <div style="clear: both;"></div> 
     </div>
 
-    <div class="section section--black section--aligner" id="contact">
-      <div class="top-slice"></div>
+    <div class="section section--black section--aligner section--padding-15" id="portfolio">
+      <!-- <div class="top-slice"></div> -->
 
       <div class="portfolio">
-        <div class="portfolio__item">
-          <div class="portfolio__title">TIM.it</div>
+        <div class="portfolio__item portfolio__item--23" style="background-image: url('../img/tim.jpg')">
+          <div class="bg"></div>
+          <!-- <div class="portfolio__title">TIM.it</div>
           <div class="portfolio__brand">Telecom Italia</div>
-          <div class="portfolio__image"><img src=""></div>
-          <div class="portfolio__description">Lorem ipsum</div>
+          <div class="divider divider--little divider--white"></div>
+          <div class="portfolio__description">Lorem ipsum</div> -->
         </div>
 
-         <div class="portfolio__item">
-          <div class="portfolio__title">TIMrace</div>
+         <div class="portfolio__item portfolio__item--13 portfolio__item--nomargin" style="background-image: url('../img/timrace.jpg')">
+          <div class="bg"></div>
+          <!-- <div class="portfolio__title">TIMrace</div>
           <div class="portfolio__brand">Telecom Italia</div>
-          <div class="portfolio__image"><img src=""></div>
-          <div class="portfolio__description">Lorem ipsum</div>
+          <div class="divider divider--little divider--white"></div>
+          <div class="portfolio__description">Lorem ipsum</div> -->
         </div>
 
-        <div class="portfolio__item">
-          <div class="portfolio__title">TIMStadium</div>
+        <div class="portfolio__item portfolio__item--14" style="background-image: url('../img/clean.jpg')">
+          <div class="bg"></div>
+          <!-- <div class="portfolio__title">TIMStadium</div>
           <div class="portfolio__brand">Telecom Italia</div>
-          <div class="portfolio__image"><img src=""></div>
-          <div class="portfolio__description">Lorem ipsum</div>
+          <div class="divider divider--little divider--white"></div>
+          <div class="portfolio__description">Lorem ipsum</div> -->
+        </div>
+
+        <div class="portfolio__item portfolio__item--14" style="background-image: url('../img/clean.jpg')">
+          <div class="bg"></div>
+          <!-- <div class="portfolio__title">TIMStadium</div>
+          <div class="portfolio__brand">Telecom Italia</div>
+          <div class="divider divider--little divider--white"></div>
+          <div class="portfolio__description">Lorem ipsum</div> -->
+        </div>
+
+        <div class="portfolio__item portfolio__item--24 portfolio__item--nomargin" style="background-image: url('../img/timstadium.jpg')">
+          <div class="bg"></div>
+          <!-- <div class="portfolio__title">TIMStadium</div>
+          <div class="portfolio__brand">Telecom Italia</div>
+          <div class="divider divider--little divider--white"></div>
+          <div class="portfolio__description">Lorem ipsum</div> -->
         </div>
       </div>
 
       <div style="clear: both;"></div>
     </div>
+
+    <div class="section" id="contact"></div>
 
     <div>
       <nav class="menu">
@@ -80,13 +113,16 @@
             <a href="#about" class="menu__link menu__link--uppercase menu__link--bold">About</a>
           </li>
           <li class="menu__item">
+            <a href="#portfolio" class="menu__link menu__link--uppercase menu__link--bold">Portfolio</a>
+          </li>
+          <li class="menu__item">
             <a href="#contact" class="menu__link menu__link--uppercase menu__link--bold">Contact</a>
           </li>
         </ul>
       </nav>
     </div>
 
-    <div class="backtotop backtotop--box ">
+    <div class="backtotop backtotop--box backtotop--disable">
       <span class="icon__icon-up-open icon--black backtotop__icon--center"></span>
     </div>
 

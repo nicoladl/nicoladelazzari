@@ -4,7 +4,6 @@
 	margin: 30px 0 50px;
 	display: block;
 
-	&--little {
-		width: 90px;
-	}
+	&--little { width: 90px }
+	&--white { background: $white }
 }

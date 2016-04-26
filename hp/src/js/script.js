@@ -44,16 +44,22 @@ function switchClass(el, start, to) {
 
 $('.menu-navigator').css('margin-top', - $('.menu-navigator').height() / 2 );
 
+$(document).on('scroll', function() {
+	if ( $(document).scrollTop() > 100 ) {
+		$('.backtotop').removeClass('backtotop--disable');
+	} else {
+		$('.backtotop').addClass('backtotop--disable');
+	}
+})
+
 $('.backtotop').on('click', function() {
-	$('body, html').animate({
-		scrollTop: 0
-	}, time, 'easeOutCubic');
+	pageScroller('html')
 });
 
-$(document).ready(function() {
-	$('.top-slice--animate').animate({
-		top: '-100px'
-	}, time*3, 'easeOutCubic', function () {
-		$(this).removeClass('top-slice--animate');
-	});
-});
+// $(document).ready(function() {
+// 	$('.top-slice--animate').animate({
+// 		top: '-100px'
+// 	}, time*3, 'easeOutCubic', function () {
+// 		$(this).removeClass('top-slice--animate');
+// 	});
+// });

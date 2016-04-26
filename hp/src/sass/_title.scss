@@ -1,17 +1,26 @@
+.headline {
+	position: relative;
+	z-index: 5;
+}
+
 .title {
-	font-family: 'Open Sans', serif;
-	font-size: 3em;
+	font-family: 'Noto Sans', serif;
+	font-size: 4em;
+	line-height: 1.3em;
 	box-sizing: border-box;
+	color: $black;
 
 	@include mobile {
 		font-size: 1em
 	}
 
 	&--bigger { font-size: 8em }
-	&--color { color: $textBase }
 	&--uppercase { text-transform: uppercase }
-	&--lora { font-family: 'Lora', serif; font-weight: 400 }
 	&--margin { margin-bottom: 50px }
+	&--light { font-weight: 400 }
+
+	&--white { color: $white }
+	&--grey { color: $textIndex }
 
 	&__hat {
 		line-height: 53px;

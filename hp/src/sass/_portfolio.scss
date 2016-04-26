@@ -1,8 +1,48 @@
 .portfolio {
+	font-family: 'Fibon', sans-serif;
 	color: $white;
 
 	&__item {
+		margin-bottom: $divider;
+		text-align: left;
+		font-size: 2em;
+		box-sizing: border-box;
+		float: left;
+		height: 300px;
+		margin-right: 1%;
+		position: relative;
+		overflow: hidden;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center right;
 
-		
+		.bg {
+			width: 100%;
+			height: 100%;
+			background-color: rgba(black, 0);
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 1;
+			transition: all 0.4s ease;
+
+			&:hover {
+				background-color: rgba(black, 0.8);
+			}
+		}
+
+		.portfolio__title,
+		.portfolio__brand,
+		.portfolio__description,
+		.divider { z-index: 1; position: relative }
+
+
+		&--nomargin { margin-right: 0 }
+
+		&--23 { width: 65% }
+		&--13 { width: 34% }
+
+		&--24 { width: 49% }
+		&--14 { width: 24% }
 	}
 }
