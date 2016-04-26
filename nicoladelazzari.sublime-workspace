@@ -1,0 +1,1196 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"backtotop",
+				"backtotop--disable"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"toggl",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"hat",
+				"hatController"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"an",
+				"anchor"
+			],
+			[
+				"menu",
+				"menuController"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"cla",
+				"classList"
+			],
+			[
+				"web",
+				"webPath"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"sib",
+				"siblings	.siblings()"
+			],
+			[
+				"backgro",
+				"background"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"css",
+				"css	.css() - multiple"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"pro",
+				"progress"
+			],
+			[
+				"last",
+				"last-child"
+			],
+			[
+				"section",
+				"section"
+			],
+			[
+				"base",
+				"basepath"
+			],
+			[
+				"ta",
+				"text-align"
+			],
+			[
+				"preo",
+				"preordina"
+			],
+			[
+				"icon",
+				"icons"
+			],
+			[
+				"Nu",
+				"nueva"
+			],
+			[
+				"Tickets",
+				"tickets"
+			],
+			[
+				"tick",
+				"tickets"
+			],
+			[
+				"slide",
+				"slideDown	.slideDown()"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"bored",
+				"border-box"
+			],
+			[
+				"mouse",
+				"mouseenter	.mouseenter()"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"preordin",
+				"preordinaScroll"
+			],
+			[
+				"wind",
+				"windowsScroll"
+			],
+			[
+				"offs",
+				"offsetTop"
+			],
+			[
+				"animte",
+				"animate	.animate()"
+			],
+			[
+				"offe",
+				"offsetTop"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"html",
+				"html5	html5"
+			],
+			[
+				"into",
+				"introJs"
+			],
+			[
+				"intro",
+				"introjs-button"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"cont",
+				"contFlow"
+			],
+			[
+				"Slide",
+				"slideNumber"
+			],
+			[
+				"container",
+				"containerBar"
+			],
+			[
+				"progress",
+				"progressSlide"
+			],
+			[
+				"pre",
+				"previous"
+			],
+			[
+				"active",
+				"activeSlide"
+			],
+			[
+				"progre",
+				"progressSlide"
+			],
+			[
+				"progr",
+				"progressbarContainer"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"app",
+				"append	.append()"
+			],
+			[
+				"atr",
+				"attr	.attr() - single"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"aniamte",
+				"animate	.animate()"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass()"
+			],
+			[
+				"scroll",
+				"scrollTop	.scrollTop()"
+			],
+			[
+				"contain",
+				"container"
+			],
+			[
+				"cta",
+				"ctaColor"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"animate",
+				"animate	.animate()"
+			],
+			[
+				"box",
+				"boxContainer"
+			],
+			[
+				"tran",
+				"transitionEnd"
+			],
+			[
+				"tr",
+				"transitionend"
+			],
+			[
+				"this",
+				"thisBundle"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"heade",
+				"headerHeight"
+			],
+			[
+				"body",
+				"bodyhtml"
+			],
+			[
+				"scrll",
+				"scrollTop	.scrollTop()"
+			],
+			[
+				"time",
+				"timeTot"
+			],
+			[
+				"blue",
+				"blueTIM"
+			],
+			[
+				"bore",
+				"border"
+			],
+			[
+				"set",
+				"setTimeout"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ani",
+				"animate	.animate()"
+			],
+			[
+				"json",
+				"jsontext"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"fo",
+				"font"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"windo",
+				"window"
+			],
+			[
+				"off",
+				"offset	.offset()"
+			],
+			[
+				"appen",
+				"appendTo	.appendTo()"
+			],
+			[
+				"dot",
+				"dot"
+			],
+			[
+				"window",
+				"windowHeight"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"price",
+				"price-list"
+			],
+			[
+				"prc",
+				"price-list"
+			],
+			[
+				"i6",
+				"i6s"
+			],
+			[
+				"ch",
+				"choosesize2"
+			],
+			[
+				"cho",
+				"choosesize1"
+			],
+			[
+				"copy",
+				"copyhtml"
+			],
+			[
+				"pading",
+				"padding-left"
+			],
+			[
+				"thumb",
+				"thumbsNumber"
+			],
+			[
+				"thumbs",
+				"thumbsWidth"
+			],
+			[
+				"child",
+				"children	.children()"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"attr",
+				"attr	.attr() - single"
+			],
+			[
+				"at",
+				"attr	.attr() - single"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"togge",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"toggle",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"main",
+				"main-content"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"fonyt",
+				"font-family"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"bakc",
+				"background-origin"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"collabo",
+				"collaboratori-logo"
+			],
+			[
+				"browser",
+				"browserSync"
+			],
+			[
+				"gulp",
+				"gulps	gulp.src('folder')"
+			],
+			[
+				"r",
+				"ready	$(document).ready"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"last_filter": "update",
+		"selected_items":
+		[
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"comme",
+				"Toggle Comment"
+			],
+			[
+				"c",
+				"Toggle Comment"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"comem",
+				"Toggle Comment"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"html5",
+				"Snippet: html5"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"html",
+				"Snippet: html5"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html	",
+				"Snippet: html5"
+			],
+			[
+				"css",
+				"Set Syntax: CSS3"
+			],
+			[
+				"consol",
+				"Set Syntax: R Console"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"co",
+				"Toggle Comment"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"come",
+				"Toggle Comment"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"COMME",
+				"Toggle Comment"
+			],
+			[
+				"commet",
+				"Toggle Comment"
+			],
+			[
+				"commen",
+				"Toggle Comment"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"comemt",
+				"Toggle Comment"
+			],
+			[
+				"gulp",
+				"Gulp"
+			],
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"ember",
+				"Set Syntax: EmberScript"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"reinden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"comment",
+				"Toggle Comment"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: $(document).ready"
+			],
+			[
+				"sassa",
+				"Set Syntax: Sass"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"pacl",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/font/nicoladelazzari",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/web/js"
+	],
+	"file_history":
+	[
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass/_backtotop.scss",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/index.html",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/js/script.js",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass/_portfolio.scss",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass/_section.scss",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass/_font.scss",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass/_title.scss",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass/_headline.scss",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass/_menu.scss",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass/_bio.scss",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass/_divider.scss",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass/gen.scss",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass/_text.scss",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass/_layout.scss",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/js/jquery.easing.min.js",
+		"/Users/ndelazzari/project/TIM/GARA2016/tim_gara_2016/_src/script/js/nav.js",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass/hamburger/_base.scss",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass/_hat.scss",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass/_iconset.scss",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/web/css/gen.css",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/web/css/divider.css",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass/_variables.scss",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass/_reset.scss",
+		"/Users/ndelazzari/project/HUMANITIES/sito/wp-content/themes/salient-child/style.css",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass/hamburger/_hamburger.scss",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/web/js/script.js",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass/_sidebar.scss",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/gulpfile.js",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass/mixin/_mixin.scss",
+		"/Users/ndelazzari/Downloads/LineMenuStyles/css/component.css",
+		"/Users/ndelazzari/Downloads/LineMenuStyles/README.md",
+		"/Users/ndelazzari/Downloads/LineMenuStyles/js/classie.js",
+		"/Users/ndelazzari/Downloads/LineMenuStyles/css/demo.css",
+		"/Users/ndelazzari/Downloads/LineMenuStyles/css/normalize.css",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass/_aligner.scss",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass/_hamburger.scss",
+		"/Users/ndelazzari/project/HUMANITIES/sito/wp-content/themes/salient-child/inc/fonts-tim.scss",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/web/js/vendor/main.js",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/web/js/vendor/segment.min.js",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/web/js/vendor/plugins.js",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/js/vendor/main.js",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass/_fonts.scss",
+		"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/.gitignore",
+		"/Users/ndelazzari/project/isp_mutui/Makefile.stage",
+		"/Users/ndelazzari/project/isp_mutui/app/views/v2/errors/404.blade.php",
+		"/Users/ndelazzari/project/isp_mutui/app/views/v2/errors/503.blade.php",
+		"/Users/ndelazzari/project/isp_mutui/public/assets-2/js/main.js",
+		"/Users/ndelazzari/project/isp_mutui/public/assets/v2/sass/_layout.scss",
+		"/Users/ndelazzari/project/isp_mutui/app/config/local/database.php",
+		"/Users/ndelazzari/project/isp_mutui/app/config/database.php",
+		"/Users/ndelazzari/project/isp_mutui/app/config/local/app.php",
+		"/Users/ndelazzari/project/isp_mutui/exclude-list.txt",
+		"/Users/ndelazzari/project/isp_mutui/Makefile.prod",
+		"/Users/ndelazzari/project/isp_mutui/app/views/thankyou.blade.php",
+		"/Users/ndelazzari/project/isp_mutui/public/assets/v2/js/main.js",
+		"/Users/ndelazzari/project/isp_mutui/app/controllers/PagesController.php",
+		"/Users/ndelazzari/project/isp_mutui/public/assets-2/css/base.css",
+		"/Users/ndelazzari/project/isp_mutui/app/database/migrations/2014_05_27_142553_create_registered_users_table.php",
+		"/Users/ndelazzari/project/isp_mutui/app/controllers/BaseController.php",
+		"/Users/ndelazzari/project/isp_mutui/public/assets/js/main.js",
+		"/Users/ndelazzari/project/isp_mutui/public/assets/v2/css/base.css",
+		"/Users/ndelazzari/project/isp_mutui/public/assets/sass/base.scss",
+		"/Users/ndelazzari/project/isp_mutui/public/assets/sass/_fonts.scss",
+		"/Users/ndelazzari/project/isp_mutui/app/routes.php",
+		"/Users/ndelazzari/project/HUMANITIES/sito/wp-content/themes/salient-child/inc/layout.scss",
+		"/Users/ndelazzari/project/HUMANITIES/sito/wp-content/themes/salient-child/inc/main-nav.scss",
+		"/Users/ndelazzari/project/HUMANITIES/sito/wp-content/themes/salient-child/inc/slider.scss",
+		"/Users/ndelazzari/project/HUMANITIES/sito/.git/MERGE_MSG",
+		"/Users/ndelazzari/project/HUMANITIES/sito/wp-content/themes/salient-child/functions.php",
+		"/Users/ndelazzari/project/HUMANITIES/sito/wp-content/themes/salient-child/function.php",
+		"/Users/ndelazzari/project/HUMANITIES/sito/wp-content/themes/salient/style.css",
+		"/Users/ndelazzari/project/PERSONALE/blog-test/_includes/head.html",
+		"/Users/ndelazzari/project/PERSONALE/blog-test/_posts/2016-03-17-welcome-to-jekyll.markdown",
+		"/Users/ndelazzari/project/PERSONALE/blog-test/.gitignore",
+		"/Users/ndelazzari/project/PERSONALE/blog-test/_includes/script.html",
+		"/Users/ndelazzari/project/PERSONALE/blog-test/_posts/2016-03-18-post2.markdown",
+		"/Users/ndelazzari/project/PERSONALE/blog-test/about.md",
+		"/Users/ndelazzari/project/PERSONALE/blog-test/contact.md",
+		"/Users/ndelazzari/project/PERSONALE/blog-test/_layouts/post.html",
+		"/Users/ndelazzari/project/PERSONALE/blog-test/_layouts/page.html",
+		"/Users/ndelazzari/project/PERSONALE/blog-test/contact.mdown",
+		"/Users/ndelazzari/project/PERSONALE/blog-test/_includes/header.html",
+		"/Users/ndelazzari/project/PERSONALE/blog-test/index.html",
+		"/Users/ndelazzari/project/PERSONALE/blog-test/_sass/_layout.scss",
+		"/Users/ndelazzari/project/PERSONALE/blog-test/_sass/_syntax-highlighting.scss",
+		"/Users/ndelazzari/project/PERSONALE/blog-test/_sass/_base.scss",
+		"/Users/ndelazzari/project/PERSONALE/blog-test/js/script.js",
+		"/Users/ndelazzari/project/PERSONALE/blog-test/_config.yml",
+		"/Users/ndelazzari/project/PERSONALE/blog-test/_layouts/default.html",
+		"/Users/ndelazzari/project/PERSONALE/blog-test/_includes/footer.html",
+		"/Users/ndelazzari/project/PERSONALE/blog-test/feed.xml",
+		"/Users/ndelazzari/project/TIMCHISIAMO/tim_corporate/tim_chi_siamo/_layouts/default.html",
+		"/Users/ndelazzari/project/TIMCHISIAMO/tim_corporate/tim_chi_siamo/_config.yml",
+		"/Users/ndelazzari/project/TIMCHISIAMO/tim_corporate/tim_chi_siamo/_includes/tag-manager.html",
+		"/Users/ndelazzari/project/TIMCHISIAMO/tim_corporate/tim_chi_siamo/_layouts/hash-redirect.html",
+		"/Users/ndelazzari/project/TIMCHISIAMO/tim_corporate/tim_chi_siamo/_sass/components/_faq.scss",
+		"/Users/ndelazzari/Dropbox/materialesitodeskero 3/trad/technicalspecs_lang-00.php",
+		"/Users/ndelazzari/project/PERSONALE/npm-skeleton/src/js/script.js",
+		"/Users/ndelazzari/project/PERSONALE/npm-skeleton/bin/build-css-watch",
+		"/Users/ndelazzari/project/PERSONALE/npm-skeleton/package.json",
+		"/Users/ndelazzari/project/PERSONALE/npm-skeleton/bin/reload",
+		"/Users/ndelazzari/project/PERSONALE/npm-skeleton/bin/build-html",
+		"/Users/ndelazzari/project/PERSONALE/npm-skeleton/bin/build-js",
+		"/Users/ndelazzari/project/PERSONALE/npm-skeleton/bin/build-css",
+		"/Users/ndelazzari/project/PERSONALE/npm-skeleton/web/index.html",
+		"/Users/ndelazzari/project/PERSONALE/npm-skeleton/bin/watch",
+		"/Applications/MAMP/conf/apache/httpd.conf",
+		"/Applications/MAMP/conf/apache/extra/httpd-vhosts.conf",
+		"/Applications/MAMP/bin/php/php5.6.10/conf/php.ini",
+		"/private/etc/hosts",
+		"/Applications/MAMP/conf/apache/original/extra/httpd-vhosts.conf",
+		"/Users/ndelazzari/project/PERSONALE/npm-skeleton/src/index.html",
+		"/Users/ndelazzari/project/PERSONALE/npm-skeleton/src/scss/style.scss",
+		"/Users/ndelazzari/project/PERSONALE/npm-skeleton/web/css/main.css",
+		"/Users/ndelazzari/project/PERSONALE/npm-skeleton/web/js/script.js",
+		"/Users/ndelazzari/project/PERSONALE/npm-skeleton/prod/js/script.min.js",
+		"/Users/ndelazzari/project/PERSONALE/npm-skeleton/src/scss/_variables.scss",
+		"/Users/ndelazzari/project/PERSONALE/npm-skeleton/prod/index.html",
+		"/Users/ndelazzari/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/ndelazzari/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/ndelazzari/project/PERSONALE/npm-skeleton/npm-debug.log",
+		"/Users/ndelazzari/project/PERSONALE/npm-skeleton/bin/mkdir",
+		"/Users/ndelazzari/project/PERSONALE/gulp-skeleton/readme.md",
+		"/Users/ndelazzari/project/PERSONALE/npm-skeleton/readme.md",
+		"/Users/ndelazzari/project/PERSONALE/npm-skeleton/bin/build.html",
+		"/Users/ndelazzari/project/PERSONALE/npm-skeleton/.gitignore",
+		"/Users/ndelazzari/project/PERSONALE/npm-skeleton/bin/watch-css",
+		"/Users/ndelazzari/project/PERSONALE/npm-skeleton/web/css/min/main.min.css"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/ndelazzari/project/PERSONALE/nicoladelazzari/hp/src/sass",
+			"",
+			"/Users/ndelazzari/project/PERSONALE/mondialfrutta/sito/wp-content/themes/mondialfrutta",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"scroll",
+			"Lora",
+			"divider--little",
+			"src=\"#\">",
+			"easeInOutQuart",
+			"500",
+			"is-active",
+			"hat",
+			"rgba(241,231,103,1)",
+			" icon--nolink",
+			"<a",
+			"a",
+			"href=\"#\"",
+			"icon--black",
+			"</a href=\"#\">",
+			"span",
+			"text",
+			"icon",
+			"nicoladelazzi",
+			"font/",
+			"definition",
+			"menuNavigator",
+			"$('.menu__navigator')",
+			"is-active",
+			"500",
+			"menu",
+			"menu.",
+			"menu",
+			"$('.hat')",
+			"3px",
+			"background-color",
+			"scroll",
+			"10px",
+			"; }",
+			"sidebar",
+			"title",
+			"$black",
+			"body",
+			"divider",
+			"$body",
+			"title--uppercase",
+			".text",
+			"title",
+			"section",
+			"menu__link--uppercase",
+			"menu__link",
+			"uppercase",
+			"<a class",
+			"@include vertical-align()",
+			"vertical-align",
+			"padding-top",
+			"visibility: hidden;",
+			"visibility: visible;",
+			"display: block;",
+			"width: 0px",
+			"display: block;",
+			"display: none;",
+			"white",
+			"menuLink",
+			"1s",
+			"Up",
+			"opacity",
+			"scale",
+			"revealstream",
+			":stream",
+			"stream",
+			"opacity",
+			"editwindow",
+			"\"",
+			"25",
+			"alonso",
+			"prospero",
+			"menu__item--current",
+			"-50",
+			"Aligner",
+			"<li>",
+			"import",
+			"3d",
+			"_",
+			"hamburger-padding-x",
+			"15px",
+			"h1",
+			"Relancer-Regular",
+			"section",
+			"Relancer-Regular",
+			"font",
+			"woff2",
+			"font",
+			"pathA",
+			"100px",
+			"animations",
+			"aligner",
+			"h1",
+			"class=\"section\"",
+			"</section>",
+			"<section",
+			"<section>",
+			"section",
+			"black",
+			"404",
+			"/assets/",
+			"Servizio momentaneamente non disponibile",
+			"info",
+			"/assets/v2",
+			"img",
+			"fasciaorariaValue",
+			"ga('send', 'event', 'Navigation', 'Prestiti_Prenota', fasciaorariaValue);",
+			"Richiedi_Appuntamento_Errore",
+			"fasciaorariaValue",
+			"nano-content",
+			"\"checked\"",
+			"privacy-box",
+			"$(this).css",
+			"chacked",
+			"ng-disabled",
+			"privacy",
+			"nth",
+			"#wrapper-form .box-form .info",
+			", fasciaorariaValue",
+			"href=\"/assets/",
+			"src=\"/assets/",
+			", fasciaorariaValue",
+			"fascia",
+			";",
+			"scaleX(1) translateZ(0)",
+			" */",
+			"/* ",
+			"0 0 3px 0 rgba(255, 255, 255, 1);"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			" ",
+			"@package mondialfrutta"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "nicoladelazzari.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"faq",
+				"_sass/components/_faq.scss"
+			],
+			[
+				"pars",
+				"common/parsing.php"
+			],
+			[
+				"tim",
+				"node_modules/browser-sync/node_modules/lodash/utility/times.js"
+			],
+			[
+				"hashredirect",
+				"tim_campagna/src/_layouts/hashRedirect.html"
+			],
+			[
+				"smartlife",
+				"tim_campagna/src/_scss/modules/_smartlife.scss"
+			],
+			[
+				"function",
+				"wp-content/themes/mondialfrutta/functions.php"
+			],
+			[
+				"post",
+				"wp-includes/post.php"
+			],
+			[
+				"functio",
+				"wp-includes/functions.php"
+			],
+			[
+				"genera",
+				"wp-includes/general-template.php"
+			],
+			[
+				"header",
+				"wp-content/themes/mondialfrutta/header.php"
+			],
+			[
+				"hea",
+				"wp-content/themes/mondialfrutta/header.php"
+			],
+			[
+				"htaccess",
+				".htaccess"
+			],
+			[
+				"heade",
+				"sito/wp-content/themes/mondialfrutta/header.php"
+			],
+			[
+				"footer",
+				"sito/wp-content/themes/mondialfrutta/footer.php"
+			],
+			[
+				"sidebar",
+				"sito/wp-content/themes/mondialfrutta/sidebar.php"
+			],
+			[
+				"gulpfile",
+				"sito/node_modules/gulp-cssmin/gulpfile.js"
+			],
+			[
+				"post-templa",
+				"wp-includes/post-template.php"
+			],
+			[
+				"style.css",
+				"wp-content/themes/rockgroup/style.css"
+			],
+			[
+				"folio",
+				"wp-content/themes/rockgroup/templates/post-layout-portfolio.php"
+			],
+			[
+				"portfolio",
+				"wp-content/themes/rockgroup/templates/post-layout-portfolio.php"
+			],
+			[
+				"portf",
+				"wp-content/themes/rockgroup/templates/post-layout-portfolio.php"
+			],
+			[
+				"archive",
+				"wp-content/themes/rockgroup/archive.php"
+			],
+			[
+				"category",
+				"wp-content/themes/twentyfourteen/category.php"
+			],
+			[
+				"categor",
+				"wp-content/themes/rockgroup/templates/page-category.php"
+			],
+			[
+				"cate",
+				"wp-includes/category.php"
+			],
+			[
+				"foo",
+				"wp-includes/theme-compat/footer.php"
+			],
+			[
+				"wp-load.php",
+				"wp-load.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 665.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
