@@ -56,10 +56,10 @@ $('.backtotop').on('click', function() {
 	pageScroller('html')
 });
 
-// $(document).ready(function() {
-// 	$('.top-slice--animate').animate({
-// 		top: '-100px'
-// 	}, time*3, 'easeOutCubic', function () {
-// 		$(this).removeClass('top-slice--animate');
-// 	});
-// });
+var varWidth = $('.section').outerWidth();
+$('.top-slice').css('border-right-width', varWidth);
+$(window).resize(function(event) {
+	varWidth = $('.section').outerWidth();
+	$('.top-slice').css('border-right-width', varWidth);
+});
+

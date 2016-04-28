@@ -27,10 +27,10 @@
 
     .hamburger-box { 
       .hamburger-inner {
-        background-color: $white;
+        background-color: $mainColor;
         
-        &:before { background-color: $white }
-        &:after { background-color: $white }
+        &:before { background-color: $mainColor }
+        &:after { background-color: $mainColor }
       }
     }
   }

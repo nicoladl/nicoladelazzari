@@ -1,6 +1,7 @@
 .headline {
 	position: relative;
 	z-index: 5;
+	width: 70%;
 }
 
 .title {
@@ -8,7 +9,11 @@
 	font-size: 4em;
 	line-height: 1.3em;
 	box-sizing: border-box;
-	color: $black;
+	color: $textIndex;
+
+		strong {
+			color: $textStong;
+		}
 
 	@include mobile {
 		font-size: 1em
@@ -20,7 +25,7 @@
 	&--light { font-weight: 400 }
 
 	&--white { color: $white }
-	&--grey { color: $textIndex }
+	&--grey { color: $mainTitle }
 
 	&__hat {
 		line-height: 53px;

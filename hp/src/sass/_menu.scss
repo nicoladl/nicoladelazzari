@@ -59,7 +59,7 @@
 				color: $white;
 				transition: all 0.4s ease;
 
-				&:hover { color: $textIndex }
+				&:hover { color: $mainColor }
 
 				&--uppercase { text-transform: uppercase }
 				&--bold { font-weight: 700 }

@@ -8,7 +8,7 @@
 	z-index: 1;
 
 	&--background {
-		background-color: rgba(255, 211, 0, 0.8);
+		background-color: $white;
 		width: 100%;
     height: 100%;
     float: left;
@@ -18,8 +18,9 @@
 	}
 
 	&--main-color {
-		background: url('../img/bg.jpg') no-repeat center center;
+		// background: url('../img/bg.jpg') no-repeat center center;
 		background-position: cover;
+		background-color: $mainColor;
 
 		.top-slice {
 			border-right: 100vw solid $mainColor;
@@ -35,10 +36,10 @@
 	}
 
 	&--black {
-		background: $black;
+		background: $portfolioBg;
 
 		.top-slice {
-			border-right: 100vw solid $black;
+			border-right: 100vw solid $portfolioBg;
 		}
 	}
 

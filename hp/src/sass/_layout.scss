@@ -1,5 +1,10 @@
 body {
 	font-size: 14px;
-
 	margin: $divider;
+
+	.wrapper {
+		max-width: 1280px;
+		margin: 0 auto;
+		display: block;
+	}
 }
