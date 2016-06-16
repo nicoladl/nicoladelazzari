@@ -25,46 +25,8 @@ $hamburger-hover-transition-timing-function: linear !default;
 $hamburger-hover-use-filter: false !default;
 $hamburger-hover-filter    : opacity(50%) !default;
 
-// Types (Remove or comment out what you don’t need)
-// ==================================================
-$hamburger-types: (
-  3dx,
-  3dx-r,
-  3dy,
-  3dy-r,
-  arrow,
-  arrow-r,
-  arrowalt,
-  arrowalt-r,
-  boring,
-  collapse,
-  collapse-r,
-  elastic,
-  elastic-r,
-  emphatic,
-  emphatic-r,
-  slider,
-  slider-r,
-  spring,
-  spring-r,
-  stand,
-  stand-r,
-  spin,
-  spin-r,
-  squeeze,
-  vortex,
-  vortex-r
-) !default;
-
 // Base Hamburger (We need this)
 // ==================================================
 @import "hamburger/base";
-
-// Include/exclude based on $hamburger-types
-// ==================================================
-@if index($hamburger-types, spin) {
-  @import "types/spin";
-}
-@if index($hamburger-types, spin-r) {
-  @import "types/spin-r";
-}
+@import "types/spin";
+@import "types/spin-r";

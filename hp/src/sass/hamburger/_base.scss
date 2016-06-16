@@ -1,12 +1,11 @@
 // Hamburger
 // ==================================================
 .hamburger {
-  padding: $hamburger-padding-y $hamburger-padding-x;
   display: inline-block;
   cursor: pointer;
   position: fixed;
-  top: 30px;
-  right: 30px;
+  top: 5%;
+  right: 5%;
   z-index: 2;
 
   transition-property: opacity, filter;

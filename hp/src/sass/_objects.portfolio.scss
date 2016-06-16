@@ -1,0 +1,50 @@
+.portfolio {
+
+	&__item {
+		width: 100%;
+		text-align: left;
+		font-size: 2em;
+		box-sizing: border-box;
+		margin-bottom: $divider;
+		border-bottom: 1px solid $mainColor;
+
+		&__content {
+			display: block;
+			width: 100%;
+			padding-top: 100px;
+		}
+	}
+
+	.title {
+		color: $black;
+		font-size: 3rem;
+		font-weight: 700;
+	}
+
+	&__description {
+		font-size: 2rem !important;
+	}
+
+	&__tools {
+		font-size: 0.5em !important;
+		margin-top: $space*2;
+
+		span {
+			background-color: $backgroundTag;
+			color: $textBase;
+			font-weight: 400;
+			padding: 10px;
+			border-radius: $borderRadius;
+			line-height: 3em;
+		}
+	}
+
+	&__thumb {
+		max-width: 100%;
+		margin: 0 auto;
+		height: 444px;
+		position: relative;
+		bottom: -5px;
+		border-radius: 3px;
+	}
+}

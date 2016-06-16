@@ -1,0 +1,13 @@
+.headline {
+	position: relative;
+	z-index: 5;
+	width: 70%;
+
+	&--spacetop {
+		margin: 0;
+
+		@include mobile {
+			margin-top: $space*7;
+		}
+	}
+}

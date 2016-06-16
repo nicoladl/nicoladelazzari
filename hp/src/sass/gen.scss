@@ -1,24 +1,32 @@
-// Base
+// Settings
+@import 'settings.variables.scss';
+
+// Tools
 @import 'vendor/breakpoint';
-@import 'mixin.scss';
-@import 'variables.scss';
-@import 'reset.scss';
-@import 'font.scss';
-@import 'iconset.scss';
-
-// Mixin
-@import 'hamburger/hamburger.scss';
 @import 'mixin/mixin.scss';
+@import 'hamburger/hamburger.scss';
+@import 'tools.mixin.scss';
 
-// Format
-@import 'title.scss';
-@import 'layout.scss';
-@import 'divider.scss';
+// Generic
+@import 'generic.reset.scss';
+@import 'generic.font.scss';
+@import 'generic.iconset.scss';
 
-// Structure
-@import 'hat.scss';
-@import 'menu.scss';
-@import 'section.scss';
-@import 'bio.scss';
-@import 'portfolio.scss';
-@import 'backtotop.scss';
+// Base
+@import 'base.title.scss';
+@import 'base.layout.scss';
+@import 'base.divider.scss';
+@import 'base.section.scss';
+
+// Objects
+@import 'objects.hat.scss';
+@import 'objects.menu.scss';
+@import 'objects.portfolio.scss';
+@import 'objects.backtotop.scss';
+
+// Components
+@import 'components.bio.scss';
+@import 'components.bio.text.scss';
+
+// Trumps
+@import 'trumps.headline.scss';
