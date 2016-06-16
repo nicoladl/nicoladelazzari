@@ -5,10 +5,10 @@
 	font-weight: 700;
 	box-sizing: border-box;
 	color: $textIndex;
-
-		strong {
-			color: $textStong;
-		}
+	
+	strong {
+		color: $textStong;
+	}
 
 	@include mobile {
 		font-size: 2em

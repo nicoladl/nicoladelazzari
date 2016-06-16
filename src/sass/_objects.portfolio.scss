@@ -22,10 +22,18 @@
 		color: $black;
 		font-size: 3rem;
 		font-weight: 700;
+
+		@include mobile { font-size: 1.8rem }
 	}
 
 	&__description {
 		font-size: 2rem !important;
+
+		@include mobile { 
+			margin-top: 10px;
+			font-size: 1.2rem !important;
+			line-height: 1.8rem; 
+		}
 	}
 
 	&__tools {
@@ -50,5 +58,7 @@
 		bottom: -5px;
 		border: 1px solid $textDefinition;
 		border-radius: 3px;
+
+		@include mobile { height: auto; }
 	}
 }

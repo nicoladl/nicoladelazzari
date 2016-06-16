@@ -1,7 +1,22 @@
 .hire {
+	font-family: 'Open Sans', serif;
+	font-size: 4em;
+	// font-weight: 700;
+
+	@include mobile {
+		font-size: 2em;
+		text-align: left;
+    	margin: 0 !important;
+	}
 
 	&__item {
 		float: left;
 		display: inline-block;
+		margin-right: $space*2;
+			text-decoration: underline;
+
+		&:hover {
+			text-decoration: none;
+		}
 	}
 }
