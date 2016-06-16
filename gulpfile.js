@@ -22,7 +22,8 @@ var vendor = [
 bowerPath + '/jquery/dist/jquery.min.js',
 bowerPath + '/picturefill/dist/picturefill.min.js',
 bowerPath + '/svg4everybody/dist/svg4everybody.min.js',
-bowerPath + '/hammerjs/hammerjs.min.js'
+bowerPath + '/hammerjs/hammerjs.min.js',
+bowerPath + '/scroll-watcher/scroll-watcher.min.js'
 ]
 
 // task - bower vendors

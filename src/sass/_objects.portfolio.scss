@@ -7,6 +7,7 @@
 		box-sizing: border-box;
 		margin-bottom: $divider;
 		padding-top: 100px;
+		overflow: hidden;
 
 			&:first-child {
 				padding-top: 0;
@@ -55,7 +56,6 @@
 		margin: 0 auto;
 		height: 444px;
 		position: relative;
-		bottom: -5px;
 		border: 1px solid $textDefinition;
 		border-radius: 3px;
 

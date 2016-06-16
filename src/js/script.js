@@ -1,6 +1,8 @@
 // Variables
 var hamburger = document.querySelector('.hamburger'),
-menu          = document.querySelector('.menu');
+menu          = document.querySelector('.menu'),
+elm           = $('.js-portfolio'),
+hire          = $('.js-hire');
 
 var time = 500;
 
@@ -56,10 +58,57 @@ $('.backtotop').on('click', function() {
 	pageScroller('html')
 });
 
-// var varWidth = $('.section').outerWidth();
-// $('.top-slice').css('border-right-width', varWidth);
-// $(window).resize(function(event) {
-// 	varWidth = $('.section').outerWidth();
-// 	$('.top-slice').css('border-right-width', varWidth);
-// });
+elm.each(function() {
+	var $that = $(this)[0];
+	var img = $that.getElementsByTagName('img')[0];
+	var myScrollWatcher = scrollWatcher($that, { 
+		onEnter: function(self) {
+			$that.classList.add('alive');
+		},
+		onActive: function(self) {
+			$that.classList.add('active');
+		},
+		onFocus: function(self) {
+			$that.setAttribute('data-alive-progress', Math.floor(self.aliveProgress * 100));
+			$that.setAttribute('data-active-progress', Math.floor(self.activeProgress * 100));
 
+			if( $that.getAttribute('data-alive-progress') > 25 ) {
+				img.classList.add('animate--visible');
+			}
+		},
+		onInactive: function(self) {
+			$that.classList.remove('active');
+		},
+		onLeave: function(self) {
+			$that.classList.remove('alive');
+		}
+	}); 
+});
+
+var myScrollWatcher = scrollWatcher(hire[0], { 
+	onEnter: function(self) {
+		hire[0].classList.add('alive');
+	},
+	onActive: function(self) {
+		hire[0].classList.add('active');
+	},
+	onFocus: function(self) {
+		hire[0].setAttribute('data-alive-progress', Math.floor(self.aliveProgress * 100));
+		hire[0].setAttribute('data-active-progress', Math.floor(self.activeProgress * 100));
+
+		if( hire[0].getAttribute('data-alive-progress') > 25 ) {
+			var element = hire[0].getElementsByTagName('div');
+			for (var i = 0; i < element.length; i++) {
+				console.log(element[i]);
+				element[i].classList.add('animate--visible');
+			}
+		};
+
+	},
+	onInactive: function(self) {
+		hire[0].classList.remove('active');
+	},
+	onLeave: function(self) {
+		hire[0].classList.remove('alive');
+	}
+}); 
