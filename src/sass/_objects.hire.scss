@@ -1,7 +1,6 @@
 .hire {
 	font-family: 'Open Sans', serif;
 	font-size: 4em;
-	// font-weight: 700;
 
 	@include mobile {
 		font-size: 2em;
@@ -11,12 +10,20 @@
 
 	&__item {
 		float: left;
-		display: inline-block;
 		margin-right: $space*2;
-			text-decoration: underline;
+		background-color: $white;
+		font-weight: 400;
+		padding: $space $space*2;
+		border-radius: $borderRadius;
+
+		a {
+			transition: color 0.3s ease;
+		}
 
 		&:hover {
-			text-decoration: none;
+			a {
+				color: $mainColor !important;
+			}
 		}
 	}
 }
