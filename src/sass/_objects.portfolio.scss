@@ -6,12 +6,15 @@
 		font-size: 2em;
 		box-sizing: border-box;
 		margin-bottom: $divider;
-		border-bottom: 1px solid $mainColor;
+		padding-top: 100px;
+
+			&:first-child {
+				padding-top: 0;
+			}
 
 		&__content {
 			display: block;
 			width: 100%;
-			padding-top: 100px;
 		}
 	}
 
@@ -29,12 +32,12 @@
 		font-size: 0.5em !important;
 		margin-top: $space*2;
 
-		span {
+		.tag {
 			background-color: $backgroundTag;
 			color: $textBase;
 			font-weight: 400;
 			padding: 10px;
-			border-radius: $borderRadius;
+			border-radius: $mainTitle;
 			line-height: 3em;
 		}
 	}
@@ -45,6 +48,7 @@
 		height: 444px;
 		position: relative;
 		bottom: -5px;
+		border: 1px solid $textDefinition;
 		border-radius: 3px;
 	}
 }

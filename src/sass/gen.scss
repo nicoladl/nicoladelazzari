@@ -11,6 +11,8 @@
 @import 'generic.reset.scss';
 @import 'generic.font.scss';
 @import 'generic.iconset.scss';
+@import 'generic.colors.scss';
+
 
 // Base
 @import 'base.title.scss';
@@ -23,6 +25,7 @@
 @import 'objects.menu.scss';
 @import 'objects.portfolio.scss';
 @import 'objects.backtotop.scss';
+@import 'objects.hire.scss';
 
 // Components
 @import 'components.bio.scss';
@@ -30,3 +33,4 @@
 
 // Trumps
 @import 'trumps.headline.scss';
+@import 'trumps.title.scss';

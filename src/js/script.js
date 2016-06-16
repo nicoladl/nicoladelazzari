@@ -12,7 +12,7 @@ hamburger.addEventListener('click', function() {
 });
 
 function whatClicked(evt) {
-  hamburgerController();
+	hamburgerController();
 	menuController();
 	pageScroller(evt.srcElement.hash);
 }
@@ -23,7 +23,7 @@ function hamburgerController() {
 }
 
 function menuController() {
-  if (menu.classList.contains('menu--show')) {
+	if (menu.classList.contains('menu--show')) {
 		switchClass('menu', 'menu--show', 'menu--hide');  
 	} else {
 		switchClass('menu', 'menu--hide', 'menu--show');
@@ -31,14 +31,14 @@ function menuController() {
 }
 
 function pageScroller(id) {
-  var top = $(id).offset().top;
+	var top = $(id).offset().top;
 	$('html, body').animate({
-  	scrollTop:top
-  }, time, 'easeOutCubic');
+		scrollTop:top
+	}, time, 'easeOutCubic');
 }
 
 function switchClass(el, start, to) {
-  $('.'+el).removeClass(start);
+	$('.'+el).removeClass(start);
 	$('.'+el).addClass(to);
 }
 
@@ -56,10 +56,10 @@ $('.backtotop').on('click', function() {
 	pageScroller('html')
 });
 
-var varWidth = $('.section').outerWidth();
-$('.top-slice').css('border-right-width', varWidth);
-$(window).resize(function(event) {
-	varWidth = $('.section').outerWidth();
-	$('.top-slice').css('border-right-width', varWidth);
-});
+// var varWidth = $('.section').outerWidth();
+// $('.top-slice').css('border-right-width', varWidth);
+// $(window).resize(function(event) {
+// 	varWidth = $('.section').outerWidth();
+// 	$('.top-slice').css('border-right-width', varWidth);
+// });
 

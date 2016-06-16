@@ -2,6 +2,7 @@
 	font-family: 'Noto Sans', serif;
 	font-size: 4em;
 	line-height: 1.3em;
+	font-weight: 700;
 	box-sizing: border-box;
 	color: $textIndex;
 
@@ -12,14 +13,6 @@
 	@include mobile {
 		font-size: 2em
 	}
-
-	&--bigger { font-size: 8em }
-	&--uppercase { text-transform: uppercase }
-	&--margin { margin-bottom: 50px }
-	&--light { font-weight: 400 }
-
-	&--white { color: $white }
-	&--grey { color: $mainTitle }
 
 	&__hat {
 		line-height: 53px;
