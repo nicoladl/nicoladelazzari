@@ -10,11 +10,11 @@
 	&--background {
 		background-color: $white;
 		width: 100%;
-    height: 100%;
-    float: left;
-    position: absolute;
-    top: 0;
-    left: 0;
+		height: 100%;
+		float: left;
+		position: absolute;
+		top: 0;
+		left: 0;
 	}
 
 	&--main-color {
@@ -26,36 +26,37 @@
     background: -moz-linear-gradient($mainColor, $mainColorGradient); /* For Firefox 3.6 to 15 */
     background: linear-gradient($mainColor, $mainColorGradient); /* Standard syntax */
 
-		.top-slice {
-			border-right: 100vw solid $mainColor;
-		}
-	}
+    .top-slice {
+    	border-right: 100vw solid $mainColor;
+    }
+}
 
-	&--white {
-		background: $white;
-
-		.top-slice {
-			border-right: 100vw solid $white;
-		}
-	}
-
-	&--black {
-		background: $black;
-
-		.top-slice {
-			border-right: 100vw solid $black;
-		}
-	}
+&--white {
+	background: $white;
 
 	.top-slice {
-		position: absolute;
-		top: -100px;
-		right: 0;
-		border-top: 100px solid transparent;
-  	border-left: 0 solid transparent;
+		border-right: 100vw solid $white;
 	}
+}
 
-	&--aligner { text-align: center }
-	&--auto { height: auto }
-	&--100 { height: 100vh }
+&--black {
+	background: $black;
+
+	.top-slice {
+		border-right: 100vw solid $black;
+	}
+}
+
+.top-slice {
+	position: absolute;
+	top: -100px;
+	right: 0;
+	border-top: 100px solid transparent;
+	border-left: 0 solid transparent;
+}
+
+&--aligner { text-align: center }
+&--nomargin { text-align: center }
+&--auto { height: auto }
+&--100 { height: 100vh }
 }
