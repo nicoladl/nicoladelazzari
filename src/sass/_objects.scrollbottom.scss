@@ -1,0 +1,16 @@
+.scroll {
+	width: 100%;
+	text-align: center;
+	padding-top: $space*5;
+
+	.scroll-bottom {
+		font-size: 3em;	
+
+		&:before {
+			-webkit-transform: rotate(180deg);
+	    	-ms-transform: rotate(180deg);
+	    	transform: rotate(180deg);
+		cursor: pointer;
+		}
+	}
+}
