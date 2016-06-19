@@ -1,4 +1,4 @@
-Makefile_dev
+Makefile_deploy_dev
 .htaccess
 .htpasswd
 /.git

@@ -2,12 +2,12 @@ SSH_HOST=ssh.nicoladelazzari.it
 SSH_USER=nicoladelazzari.it
 WEB_DIR=/www/
 
-rsync-hp:
-	rsync -az --no-perms -i --omit-dir-times ./hp/* ${SSH_USER}@${SSH_HOST}:${WEB_DIR} --exclude-from 'exclude-list.txt'
+rsync:
+	rsync -az --no-perms -i --omit-dir-times ./web/* ${SSH_USER}@${SSH_HOST}:${WEB_DIR} --exclude-from 'exclude-list.txt'
 
-rsync-temp:
-	rsync -az --no-perms -i --omit-dir-times ./temp/* ${SSH_USER}@${SSH_HOST}:${WEB_DIR} --exclude-from 'exclude-list.txt'
+gulp-prod:
+	gulp prod
 
-deploy-hp: rsync
+deploy-hp: gulp-prod rsync
 
 deploy-temp: rsync-temp
