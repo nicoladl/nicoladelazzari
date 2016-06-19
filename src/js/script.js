@@ -36,7 +36,7 @@ function pageScroller(id) {
 	var top = $(id).offset().top;
 	$('html, body').animate({
 		scrollTop:top
-	}, time, 'easeOutCubic');
+	}, time*2, 'easeOutCubic');
 }
 
 function switchClass(el, start, to) {
@@ -56,6 +56,10 @@ $(document).on('scroll', function() {
 
 $('.backtotop').on('click', function() {
 	pageScroller('html')
+});
+
+$('.js-scroll').on('click', function() {
+	pageScroller('.bio')
 });
 
 elm.each(function() {
@@ -103,7 +107,6 @@ var myScrollWatcher = scrollWatcher(hire[0], {
 				element[i].classList.add('animate--visible');
 			}
 		};
-
 	},
 	onInactive: function(self) {
 		hire[0].classList.remove('active');
