@@ -8,6 +8,4 @@ rsync:
 gulp-prod:
 	gulp prod
 
-deploy-hp: gulp-prod rsync
-
-deploy-temp: rsync-temp
+deploy: gulp-prod rsync
