@@ -5,6 +5,7 @@ _site
 **/bower_components
 **/web
 
+**/js/min/
 /temp
 *.psd
 
