@@ -1,16 +1,17 @@
-var gulp      = require('gulp'),
-sass          = require('gulp-sass'),
-autoprefixer  = require('gulp-autoprefixer'),
-gulpif        = require('gulp-if'),
-concat        = require('gulp-concat'),
-minifyCss     = require('gulp-clean-css'),
-runSequence   = require('run-sequence'),
-imagemin      = require('gulp-imagemin'),
-pngquant      = require('imagemin-pngquant'),
-w3cjs         = require('gulp-w3cjs'),
-through2      = require('through2'),
-critical      = require('critical'),
-browserSync   = require('browser-sync').create();
+var gulp     = require('gulp'),
+sass         = require('gulp-sass'),
+autoprefixer = require('gulp-autoprefixer'),
+concat       = require('gulp-concat'),
+gulpif       = require('gulp-if'),
+minifyCss    = require('gulp-clean-css'),
+minify       = require('gulp-minify'),
+runSequence  = require('run-sequence'),
+imagemin     = require('gulp-imagemin'),
+pngquant     = require('imagemin-pngquant'),
+w3cjs        = require('gulp-w3cjs'),
+through2     = require('through2'),
+critical     = require('critical'),
+browserSync  = require('browser-sync').create();
 
 var prod = false;
 
@@ -31,7 +32,7 @@ gulp.task('vendor', function(){
 
 	return gulp.src(vendor)
 	.pipe(concat('plugins.js'))
-	.pipe(gulp.dest(webPath + '/js/vendor'))
+	.pipe(gulp.dest(webPath + '/js/'))
 });
 
 // task - sass
@@ -44,8 +45,8 @@ gulp.task('sass', function () {
 		cascade: false
 	}))
 	.pipe(gulpif(prod, minifyCss({
-		compatibility: 'ie8'}
-		)))
+		compatibility: 'ie8'
+	})))
 	.pipe(gulp.dest(webPath + '/css/'))
 	.pipe(browserSync.stream());
 });
@@ -53,9 +54,15 @@ gulp.task('sass', function () {
 // task - js
 gulp.task('js',function(){
 
-	return gulp.src(basePath + '/js/*.js')
-	.pipe(gulpif(prod, concat('script.js')))
-	.pipe(gulp.dest(webPath + '/js'));
+	gulp.src(basePath + '/js/*.js')
+		.pipe(gulpif(prod, minify({
+			ignoreFiles: ['min.js']
+		})))
+		.pipe(gulp.dest(basePath + '/js/min/'));
+
+	return gulp.src(basePath + '/js/min/*-min.js')
+		.pipe(concat('script.min.js'))
+		.pipe(gulp.dest(webPath + '/js/'));
 });
 
 // task - image minificator
@@ -88,11 +95,14 @@ gulp.task('copy-files', function(){
 	gulp.src(basePath + '/img/*')
 	.pipe(gulp.dest(webPath + '/img'));
 
-	gulp.src(basePath + '/svg/*')
-	.pipe(gulp.dest(webPath + '/svg'));
-
 	gulp.src(basePath + '/font/*')
 	.pipe(gulp.dest(webPath + '/font'));
+
+	gulp.src(basePath + '/*.txt')
+	.pipe(gulp.dest(webPath + '/'));
+
+	gulp.src(basePath + '/.htaccess')
+	.pipe(gulp.dest(webPath + '/'));
 
 	gulp.src(basePath + '/*.html')
 	.pipe(gulp.dest(webPath + '/'));
@@ -127,9 +137,10 @@ gulp.task('watch', ['vendor', 'sass', 'js', 'images', 'w3cjs', 'copy-files'], fu
 });
 
 // task - production task
-gulp.task('prod', ['vendor', 'sass', 'js', 'images', 'w3cjs', 'copy-files'], function(){
+gulp.task('prod', ['vendor', 'images', 'w3cjs', 'copy-files'], function(){
 	prod = true;
-	runSequence('critical');
+	runSequence(['sass', 'js'], 'critical');
+	prod = false;
 });
 
 gulp.task('default', ['vendor', 'sass', 'js', 'images', 'w3cjs', 'copy-files', 'critical']);
