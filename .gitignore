@@ -6,8 +6,10 @@ _site
 **/web
 
 **/js/min/
-/temp
 *.psd
+
+Makefile_deploy_dev
+google0ccfeafd7a876c0c.html
 
 # workspace files are user-specific
 *.sublime-workspace
