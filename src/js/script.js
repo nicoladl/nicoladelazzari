@@ -103,7 +103,6 @@ var myScrollWatcher = scrollWatcher(hire[0], {
 		if( hire[0].getAttribute('data-alive-progress') > 25 ) {
 			var element = hire[0].getElementsByTagName('div');
 			for (var i = 0; i < element.length; i++) {
-				console.log(element[i]);
 				element[i].classList.add('animate--visible');
 			}
 		};
