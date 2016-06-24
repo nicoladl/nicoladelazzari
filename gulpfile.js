@@ -11,6 +11,7 @@ pngquant     = require('imagemin-pngquant'),
 w3cjs        = require('gulp-w3cjs'),
 through2     = require('through2'),
 critical     = require('critical'),
+plumber      = require('gulp-plumber');
 browserSync  = require('browser-sync').create();
 
 var prod = false;
@@ -51,15 +52,12 @@ gulp.task('sass', function () {
 // task - js
 gulp.task('js',function(){
 
-	gulp.src(basePath + '/js/*.js')
-		.pipe(gulpif(prod, minify({
-			ignoreFiles: ['min.js']
-		})))
-		.pipe(gulp.dest(basePath + '/js/min/'));
-
-	return gulp.src(basePath + '/js/min/*-min.js')
+	gulp.src(basePath + '/js/**/*.js')
+		.pipe(plumber())
 		.pipe(concat('script.min.js'))
+		.pipe(gulpif(prod, minify({})))
 		.pipe(gulp.dest(webPath + '/js/'));
+
 });
 
 // task - image minificator
