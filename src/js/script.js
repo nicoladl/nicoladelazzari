@@ -55,12 +55,26 @@ $(document).on('scroll', function() {
 })
 
 $('.backtotop').on('click', function() {
-	pageScroller('html')
+	pageScroller('html');
 });
 
-$('.js-scroll').on('click', function() {
-	pageScroller('.bio')
-});
+$('.js-scroll')
+	.mouseenter(function() {
+		console.log($(this));
+		$(this).animate({
+			top: '10px'
+		}, time/2)
+	})
+	.mouseleave(function() {
+		console.log('leave');
+		$(this).animate({
+			top: '0px'
+		}, time/2)
+	})
+	.on('click', function() {
+		pageScroller('.bio')
+	})
+;
 
 elm.each(function() {
 	var $that = $(this)[0];

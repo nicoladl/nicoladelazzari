@@ -5,12 +5,12 @@
 
 	.scroll-bottom {
 		font-size: 3em;	
+			top: 0px;
+			position: relative;
 
 		&:before {
-			-webkit-transform: rotate(180deg);
-	    	-ms-transform: rotate(180deg);
 	    	transform: rotate(180deg);
-		cursor: pointer;
+			cursor: pointer;
 		}
 	}
 }
