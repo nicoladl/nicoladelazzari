@@ -14,13 +14,12 @@
 
 .text {
   font-size: 1rem;
-  mix-blend-mode: exclusion;
 
   &__right {
     text-align: right;
   }
 
   &__light {
-    font-weight: 400;
+    font-weight: 100;
   }
 }

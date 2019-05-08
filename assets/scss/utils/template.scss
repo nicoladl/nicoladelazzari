@@ -2,8 +2,9 @@ html {
   font-size: 70px;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:100,400');
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Gothic A1', sans-serif;
   min-height: 100vh;
   overflow: hidden;
   color: $black;
