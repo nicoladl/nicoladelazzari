@@ -15,7 +15,7 @@
     <!-- bio -->
     <section class="section row end-xs">
       <div class="col-xs-9">
-        <div class="text">Nicola De Lazzari is a frontend developer specialized in javascript development. He works for the most important swiss agencies.</div>
+        <div class="text">Nicola is a frontend developer specialized in javascript development. He works for the most important swiss agencies.</div>
       </div>
     </section>
 
@@ -23,16 +23,16 @@
     <section class="section">
       <ul>
         <li class="row">
-          <div class="col-xs-3">
-            <div class="text">2017 - Present</div>
+          <div class="col-xs-3 no-padding-right">
+            <div class="text text__right text__light">2017<br />Present</div>
           </div>
           <div class="col-xs-9">
             <div class="text">Octoplus Group</div>
           </div>
         </li>
         <li class="row">
-          <div class="col-xs-3">
-            <div class="text">2011 - 2017</div>
+          <div class="col-xs-3 no-padding-right">
+            <div class="text text__right text__light">2011<br />2017</div>
           </div>
           <div class="col-xs-9">
             <div class="text">AKQA</div>
@@ -45,8 +45,8 @@
     <section class="section">
       <ul>
         <li class="row">
-          <div class="col-xs-3">
-            <div class="text">2018</div>
+          <div class="col-xs-3 no-padding-right">
+            <div class="text text__right text__light">2018</div>
           </div>
           <div class="col-xs-9">
             <div class="project">
@@ -56,8 +56,8 @@
           </div>
         </li>
         <li class="row">
-          <div class="col-xs-3">
-            <div class="text">2017</div>
+          <div class="col-xs-3 no-padding-right">
+            <div class="text text__right text__light">2017</div>
           </div>
           <div class="col-xs-9">
             <div class="project">
@@ -75,8 +75,8 @@
           </div>
         </li>
         <li class="row">
-          <div class="col-xs-3">
-            <div class="text">2016</div>
+          <div class="col-xs-3 no-padding-right">
+            <div class="text text__right text__light">2016</div>
           </div>
           <div class="col-xs-9">
             <div class="project">
@@ -93,7 +93,7 @@
       <ul>
         <li class="row">
           <div class="col-xs-3 no-padding-right">
-            <div class="text text__right"><br />2</div>
+            <div class="text text__right text__light"><br />2</div>
           </div>
           <div class="col-xs-9">
             <div class="text">Awwwards<br />Mobile exellence</div>
@@ -101,7 +101,7 @@
         </li>
         <li class="row">
           <div class="col-xs-3 no-padding-right">
-            <div class="text text__right"><br />2</div>
+            <div class="text text__right text__light"><br />2</div>
           </div>
           <div class="col-xs-9">
             <div class="text">Awwwards<br />Mobile exellence</div>
@@ -115,7 +115,7 @@
       <ul>
         <li class="row">
           <div class="col-xs-3 no-padding-right">
-            <div class="text text__right">Social</div>
+            <div class="text text__right text__light">Social</div>
           </div>
           <div class="col-xs-9">
             <div class="text">github</div>
