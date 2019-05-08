@@ -1,0 +1,22 @@
+.title {
+  font-size: 3rem;
+  // font-size: calc(100vh / 4);
+  line-height: 0.975em;
+  display: flex;
+  flex-direction: column;
+
+  &__row {
+    &:first-child, &:last-child {
+      padding-left: 24%;
+    }
+  }
+}
+
+.text {
+  font-size: 1rem;
+  mix-blend-mode: exclusion;
+
+  &__right {
+    text-align: right;
+  }
+}
