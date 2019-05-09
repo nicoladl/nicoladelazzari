@@ -1,13 +1,17 @@
 .title {
   font-size: 14vw;
   // font-size: calc(100vh / 4);
-  line-height: 0.975em;
+  line-height: 0.91em;
   display: flex;
   flex-direction: column;
 
   &__row {
     &:first-child, &:last-child {
-      padding-left: 312px;
+      padding-left: 24.9%;
+    }
+
+    span {
+      margin-left: 2.5%;
     }
   }
 }
@@ -20,6 +24,6 @@
   }
 
   &__light {
-    font-weight: 100;
+	  font-family: HelveticaNowDisplay-Th, Arial;
   }
 }
