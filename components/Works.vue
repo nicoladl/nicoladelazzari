@@ -3,7 +3,7 @@
     <ul>
       <li class="row">
         <div class="col-xs-3 no-padding-right">
-          <div class="text text__right text__light">2018</div>
+          <div class="text text--right text--light">2018</div>
         </div>
         <div class="col-xs-9">
           <div class="project">
@@ -14,7 +14,7 @@
       </li>
       <li class="row">
         <div class="col-xs-3 no-padding-right">
-          <div class="text text__right text__light">2017</div>
+          <div class="text text--right text--light">2017</div>
         </div>
         <div class="col-xs-9">
           <div class="project">
@@ -33,7 +33,7 @@
       </li>
       <li class="row">
         <div class="col-xs-3 no-padding-right">
-          <div class="text text__right text__light">2016</div>
+          <div class="text text--right text--light">2016</div>
         </div>
         <div class="col-xs-9">
           <div class="project">

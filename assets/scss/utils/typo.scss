@@ -19,11 +19,15 @@
 .text {
   font-size: 1rem;
 
-  &__right {
+  &--right {
     text-align: right;
   }
 
-  &__light {
+  &--light {
 	  font-family: HelveticaNowDisplay-Th, Arial;
+  }
+
+  &--side {
+    font-size: 0.4rem;
   }
 }
