@@ -1,3 +1,12 @@
 .menu {
-  
+  position: relative;
+
+  &__item {
+    position: absolute;
+    transform: translateY(100vh);
+
+    &.target {
+      color: $red;
+    }
+  }
 }

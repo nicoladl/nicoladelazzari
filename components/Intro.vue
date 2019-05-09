@@ -1,5 +1,5 @@
 <template>
-  <section class="section section__plain row">
+  <section class="section section__plain row" data-id="0">
     <div class="col-xs-12">
       <h1 class="title">
         <span class="title__row">Nicola</span>

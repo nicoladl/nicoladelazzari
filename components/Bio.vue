@@ -1,5 +1,5 @@
 <template>
-  <section class="section row end-xs">
+  <section class="section row end-xs" data-id="1">
     <div class="col-xs-9">
       <div class="text">{{ bio }}</div>
     </div>
