@@ -1,47 +1,30 @@
 <template>
   <section class="section" data-id="3">
     <ul>
-      <li class="row">
+      <li v-for="(year, index) in works.years" :key="index" class="row">
         <div class="col-xs-3 no-padding-right">
-          <div class="text text--right text--light">2018</div>
+          <div class="text text--right text--light">{{ year.label }}</div>
         </div>
         <div class="col-xs-9">
-          <div class="project">
-            <p class="text">Durisch+Nolli</p>
-            <img class="project__image" src="https://source.unsplash.com/random/600x600?architect" alt="Mistretta" />
-          </div>
-        </div>
-      </li>
-      <li class="row">
-        <div class="col-xs-3 no-padding-right">
-          <div class="text text--right text--light">2017</div>
-        </div>
-        <div class="col-xs-9">
-          <div class="project">
-            <p class="text">Mistretta</p>
-            <img class="project__image" src="https://source.unsplash.com/random/600x600?coiffure" alt="Mistretta" />
-          </div>
-          <div class="project">
-            <p class="text">Axure Broker</p>
-            <img class="project__image" src="https://source.unsplash.com/random/600x600?finance" alt="Mistretta" />
-          </div>
-          <div class="project">
-            <p class="text">Charly Zenger</p>
-            <img class="project__image" src="https://source.unsplash.com/random/600x600?jewellery" alt="Mistretta" />
-          </div>
-        </div>
-      </li>
-      <li class="row">
-        <div class="col-xs-3 no-padding-right">
-          <div class="text text--right text--light">2016</div>
-        </div>
-        <div class="col-xs-9">
-          <div class="project">
-            <p class="text">H-Farm</p>
-            <img class="project__image" src="https://source.unsplash.com/random/600x600?farm" alt="Mistretta" />
+          <div v-for="(project, index) in year.content" :key="index" class="project">
+            <a :href="project.url" target="_blank">
+              <p class="text">{{ project.label }}</p>
+            </a>
+            <img class="project__image" :src="project.image" :alt="project.label" />
           </div>
         </div>
       </li>
     </ul>
   </section>
 </template>
+
+<script>
+export default {
+  data(context) {
+    console.log(context.$store.state.works)
+    return {
+      works: context.$store.state.works
+    }
+  }
+}
+</script>
