@@ -2,7 +2,7 @@
   <nav class="menu">
     <ul>
       <li v-for="(item, index) in menu" :key="index" class="menu__item" :data-id="index">
-        <div class="text--side" v-html="item.label"></div>
+        <div :class="index === 0 ? 'text--side' : 'text'" v-html="item.label"></div>
       </li>
     </ul>
   </nav>
@@ -21,7 +21,7 @@ export default {
     const options = {
       root: null,
       rootMargin: '0px',
-      threshold: 0
+      threshold: 0.3
     }
 
     const reveal = document.querySelectorAll('section')
