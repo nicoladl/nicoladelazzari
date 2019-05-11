@@ -48,21 +48,7 @@ export default {
           // refactor
           menuItems[index].classList.add('target')
 
-          let itemPrev
-          if (index === 0) {
-            itemPrev = menuItems[0]
-          } else {
-            itemPrev = menuItems[index - 1]
-          }
-
-          TweenMax.to(item, 1, { y: itemPrev.offsetHeight * index })
-        } else {
-          const el = entry.target
-          const item = menuItems[el.dataset.id]
-          // refactor
-          if (item.classList.contains('target')) {
-            TweenMax.to(item, 1, { y: window.innerHeight })
-          }
+          TweenMax.to(item, 1, { y: item.offsetHeight * index })
         }
       })
     }

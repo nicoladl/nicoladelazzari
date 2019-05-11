@@ -69,5 +69,22 @@ export const state = () => ({
         ]
       }
     ]
-  }
+  },
+  awards: [
+    {
+      title: 'CSS Design Awards',
+      lenght: 2,
+      type: 'WSOTD'
+    },
+    {
+      title: 'Awwwards',
+      lenght: 10,
+      type: 'SOTD'
+    },
+    {
+      title: 'FWA',
+      lenght: 1,
+      type: 'FWAOTD'
+    }
+  ]
 })

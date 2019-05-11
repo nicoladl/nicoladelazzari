@@ -1,22 +1,26 @@
 <template>
   <section class="section" data-id="4">
     <ul class="list">
-      <li class="row">
+      <li v-for="(award, index) in awards" :key="index" class="row">
         <div class="col-xs-3 no-padding-right">
-          <div class="text text--right text--light"><br />2</div>
+          <div class="text text--right text--light"><br />{{ award.lenght }}</div>
         </div>
         <div class="col-xs-9">
-          <div class="text">Awwwards<br /><span class="text--light">Mobile exellence</span></div>
-        </div>
-      </li>
-      <li class="row">
-        <div class="col-xs-3 no-padding-right">
-          <div class="text text--right text--light"><br />2</div>
-        </div>
-        <div class="col-xs-9">
-          <div class="text">Awwwards<br /><span class="text--light">Mobile exellence</span></div>
+          <div class="text">
+            {{ award.title }}<br /><span class="text--light">{{ award.type }}</span>
+          </div>
         </div>
       </li>
     </ul>
   </section>
 </template>
+
+<script>
+export default {
+  data(context) {
+    return {
+      awards: context.$store.state.awards
+    }
+  }
+}
+</script>
