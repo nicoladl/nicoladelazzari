@@ -18,3 +18,9 @@ a {
 .no-padding-right {
   padding-right: 0;
 }
+
+.nomobile {
+  @include mq($until: desktop) {
+    display: none;
+  } 
+}

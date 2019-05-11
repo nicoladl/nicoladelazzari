@@ -1,9 +1,9 @@
 <template>
   <div class="row">
-    <div class="col-xs-2">
+    <div class="col-xs-2 nomobile">
       <Menu />
     </div>
-    <div class="col-xs-10">
+    <div class="col-xs-12 col-md-10">
       <nuxt />
     </div>
   </div>
