@@ -44,7 +44,8 @@ export default {
   */
   plugins: [
     '~/plugins/scroll.js',
-    '~/plugins/reveal.js'
+    '~/plugins/reveal.js',
+    { src: '~plugins/ga.js', ssr: false }
   ],
 
   /*
