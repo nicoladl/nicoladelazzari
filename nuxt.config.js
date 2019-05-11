@@ -43,7 +43,8 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '~/plugins/scroll.js'
+    '~/plugins/scroll.js',
+    '~/plugins/reveal.js'
   ],
 
   /*
