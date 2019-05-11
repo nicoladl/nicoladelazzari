@@ -1,6 +1,6 @@
 <template>
   <section class="section" data-id="2">
-    <ul>
+    <ul class="list">
       <li class="row">
         <div class="col-xs-3 no-padding-right">
           <div class="text text--right text--light">2017 -<br />Present</div>

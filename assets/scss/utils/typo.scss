@@ -1,6 +1,5 @@
 .title {
   font-size: 14vw;
-  // font-size: calc(100vh / 4);
   line-height: 0.91em;
   display: flex;
   flex-direction: column;
@@ -14,10 +13,15 @@
       margin-left: 2.5%;
     }
   }
+
+  &--light {
+    font-family: HelveticaNowDisplay-Th, Arial;
+  }
 }
 
 .text {
   font-size: 1rem;
+  line-height: 1.25rem;
 
   &--right {
     text-align: right;

@@ -2,7 +2,11 @@
 @import 'utils/vars';
 @import 'utils/typo';
 @import 'utils/template';
+@import 'utils/ul';
+@import 'utils/section';
 @import '../../node_modules/flexboxgrid/css/flexboxgrid.css';
 
 @import 'components/Menu';
 @import 'components/Project';
+@import 'components/Arrow';
+@import 'components/Work';
