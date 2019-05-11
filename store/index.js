@@ -33,7 +33,7 @@ export const state = () => ({
         content: [
           {
             label: 'Durisch+Nolli',
-            image: '/images/durischnolli.jpg',
+            image: './images/durischnolli.jpg',
             href: 'https://durischnolli.ch'
           }
         ]
