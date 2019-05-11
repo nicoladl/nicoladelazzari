@@ -43,17 +43,17 @@ export const state = () => ({
         content: [
           {
             label: 'Mistretta Coiffure',
-            image: '/images/mistretta.jpg',
+            image: './images/mistretta.jpg',
             href: 'https://mistretta.ch'
           },
           {
             label: 'Axure Broker',
-            image: '/images/axure.jpg',
+            image: './images/axure.jpg',
             href: 'https://axure-broker.ch'
           },
           {
             label: 'Charly Zenger',
-            image: '/images/charlyzenger.jpg',
+            image: './images/charlyzenger.jpg',
             href: 'https://charlyzenger.ch'
           }
         ]
@@ -63,7 +63,7 @@ export const state = () => ({
         content: [
           {
             label: 'H-Farm',
-            image: '/images/hfarm.jpg',
+            image: './images/hfarm.jpg',
             href: 'https://h-farm.com'
           }
         ]
