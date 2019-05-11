@@ -5,7 +5,7 @@
         <div class="col-xs-3 no-padding-right nomobile">
           <div class="text text--right text--light">{{ year.label }}</div>
         </div>
-        <div class="col-xs-12 col-xs-9">
+        <div class="col-xs-12 col-md-9">
           <div v-for="(project, index) in year.content" :key="index" class="project">
             <Link :item="project" />
             <img class="project__image nomobile" :src="project.image" :alt="project.label" />
