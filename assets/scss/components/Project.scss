@@ -1,6 +1,5 @@
 .project {
   position: relative;
-  padding-bottom: 20px;
 
   &:hover {
     .project__image {
@@ -8,11 +7,6 @@
       transform: scaleX(1) translateX(0);
       transform-origin: right center;
       transition: all 0.5s ease-in-out;
-    }
-
-    .arrow {
-      opacity: 1;
-      transition: opacity 0.5s ease-out;
     }
   }
 
@@ -27,10 +21,5 @@
     transform: scaleX(1.1) translateX(-2vw);
     transform-origin: right center;
     transition: all 0.25s ease-in-out;
-  }
-
-  .arrow {
-    opacity: 0;
-    transition: opacity 0.25s ease-out;
   }
 }

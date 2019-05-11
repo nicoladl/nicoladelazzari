@@ -7,12 +7,7 @@
         </div>
         <div class="col-xs-9">
           <div v-for="(project, index) in year.content" :key="index" class="project">
-            <a :href="project.url" target="_blank">
-              <p class="text work__link">
-                <span>{{ project.label }}</span>
-                <span><Arrow /></span>
-              </p>
-            </a>
+            <Link :item="project" />
             <img class="project__image" :src="project.image" :alt="project.label" />
           </div>
         </div>
@@ -22,11 +17,11 @@
 </template>
 
 <script>
-import Arrow from '../components/Arrow'
+import Link from '../components/Link'
 
 export default {
   components: {
-    Arrow
+    Link
   },
   data(context) {
     return {

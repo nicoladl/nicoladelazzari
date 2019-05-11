@@ -34,7 +34,7 @@ export const state = () => ({
           {
             label: 'Durisch+Nolli',
             image: '/images/durischnolli.jpg',
-            url: 'https://durischnolli.ch'
+            href: 'https://durischnolli.ch'
           }
         ]
       },
@@ -44,17 +44,17 @@ export const state = () => ({
           {
             label: 'Mistretta Coiffure',
             image: '/images/mistretta.jpg',
-            url: 'https://mistretta.ch'
+            href: 'https://mistretta.ch'
           },
           {
             label: 'Axure Broker',
             image: '/images/axure.jpg',
-            url: 'https://axure-broker.ch'
+            href: 'https://axure-broker.ch'
           },
           {
             label: 'Charly Zenger',
             image: '/images/charlyzenger.jpg',
-            url: 'https://charlyzenger.ch'
+            href: 'https://charlyzenger.ch'
           }
         ]
       },
@@ -64,7 +64,7 @@ export const state = () => ({
           {
             label: 'H-Farm',
             image: '/images/hfarm.jpg',
-            url: 'https://h-farm.com'
+            href: 'https://h-farm.com'
           }
         ]
       }
@@ -85,6 +85,20 @@ export const state = () => ({
       title: 'FWA',
       lenght: 1,
       type: 'FWAOTD'
+    }
+  ],
+  contacts: [
+    {
+      label: 'Github',
+      href: 'https://github.com/nicoladl'
+    },
+    {
+      label: 'LinkedIn',
+      href: 'https://www.linkedin.com/in/nicoladelazzari/'
+    },
+    {
+      label: 'Twitter',
+      href: 'https://twitter.com/nicoladelazzari'
     }
   ]
 })

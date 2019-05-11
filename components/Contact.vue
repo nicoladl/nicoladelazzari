@@ -6,11 +6,26 @@
           <div class="text text--right text--light">Social</div>
         </div>
         <div class="col-xs-9">
-          <div class="text">github</div>
-          <div class="text">twitter</div>
-          <div class="text">linkedin</div>
+          <div v-for="(contact, index) in contacts" :key="index" class="social">
+            <Link :item="contact" />
+          </div>
         </div>
       </li>
     </ul>
   </section>
 </template>
+
+<script>
+import Link from '../components/Link'
+
+export default {
+  components: {
+    Link
+  },
+  data(context) {
+    return {
+      contacts: context.$store.state.contacts
+    }
+  }
+}
+</script>
