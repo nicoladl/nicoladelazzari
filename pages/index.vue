@@ -28,6 +28,7 @@ export default {
   },
   mounted() {
     this.$scroll()
+    this.$reveal()
   }
 }
 </script>

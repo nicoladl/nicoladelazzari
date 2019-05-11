@@ -1,6 +1,8 @@
 <template>
-  <a :href="item.href" class="text arrow" target="_blank">
-    <span class="arrow__label">{{ item.label }}</span>
+  <a :href="item.href" class="text arrow reveal" target="_blank">
+    <span class="item">
+      <span class="arrow__label">{{ item.label }}</span>
+    </span>
     <span class="arrow__icon"><Arrow /></span>
   </a>
 </template>

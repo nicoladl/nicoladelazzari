@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import { TweenMax, TimelineMax } from 'gsap'
+import { TweenMax, TimelineMax, Power4 } from 'gsap'
 
 export default {
   data(context) {
@@ -23,6 +23,7 @@ export default {
       rootMargin: '0px',
       threshold: 0.3
     }
+    const easeInOut = Power4.easeInOut
 
     const reveal = document.querySelectorAll('section')
     const menuItems = document.querySelectorAll('.menu__item')
@@ -47,18 +48,30 @@ export default {
 
           if (index !== 0) {
             new TimelineMax()
-              .to(menuItem, 1, {
+              .to(menuItem, 2, {
                 y: menuItem.offsetHeight * (index - 1),
+                ease: easeInOut,
                 onComplete: () => {
                   menuItems[index].classList.add('target')
                 }
               })
-              .to(menuItems[0], 1, { y: -window.innerHeight }, 0)
+              .to(
+                menuItems[0],
+                2,
+                {
+                  y: -window.innerHeight,
+                  ease: easeInOut
+                },
+                0
+              )
           } else {
-            TweenMax.to(menuItem, 1, { y: 0 })
+            TweenMax.to(menuItem, 2, { y: 0 })
             menuItems.forEach((item, index) => {
               if (index !== 0) {
-                TweenMax.to(menuItems[menuItems.length - index], 1, { y: window.innerHeight + item.offsetHeight * (menuItems.length - index) })
+                TweenMax.to(menuItems[menuItems.length - index], 2, {
+                  y: window.innerHeight + item.offsetHeight * (menuItems.length - index),
+                  ease: easeInOut
+                })
               }
             })
           }

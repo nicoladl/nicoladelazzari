@@ -24,3 +24,16 @@ a {
     display: none;
   } 
 }
+
+.reveal {
+  height: 1em;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+
+  .item {
+    width: 100%;
+    position: absolute;
+    transform: translateY(200px);
+  }
+}

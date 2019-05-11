@@ -3,7 +3,9 @@
     <ul class="list">
       <li v-for="(year, index) in works.years" :key="index" class="row">
         <div class="col-xs-3 no-padding-right nomobile">
-          <div class="text text--right text--light">{{ year.label }}</div>
+          <div class="text text--right text--light reveal">
+            <span class="item">{{ year.label }}</span>
+          </div>
         </div>
         <div class="col-xs-12 col-md-9">
           <div v-for="(project, index) in year.content" :key="index" class="project">

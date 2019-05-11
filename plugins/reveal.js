@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import { TweenMax } from 'gsap'
-import { tweenStart, tweenEnd } from '../assets/js/tweens'
+import { tweenEnd } from '../assets/js/tween'
 
 Vue.prototype.$reveal = () => {
   const reveal = document.querySelectorAll('.reveal')
@@ -24,10 +24,17 @@ Vue.prototype.$reveal = () => {
 
         if (!el.classList.contains('revealed')) {
           // angle animation
-          TweenMax.fromTo(el, 2, tweenStart, {
-            ...tweenEnd,
-            onComplete: el.classList.add('revealed')
-          })
+          TweenMax.fromTo(
+            el.querySelector('.item'),
+            2,
+            {
+              y: el.offsetHeight
+            },
+            {
+              ...tweenEnd,
+              onComplete: el.classList.add('revealed')
+            }
+          )
         }
       }
     })

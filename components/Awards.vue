@@ -3,11 +3,21 @@
     <ul class="list">
       <li v-for="(award, index) in awards" :key="index" class="row">
         <div class="col-xs-3 no-padding-right nomobile">
-          <div class="text text--right text--light"><br />{{ award.lenght }}</div>
+          <div class="text text--right text--light reveal">
+            <br />
+            <span class="item">{{ award.lenght }}</span>
+          </div>
         </div>
         <div class="col-xs-12 col-md-9">
           <div class="text">
-            {{ award.title }}<br /><span class="text--light">{{ award.type }}</span>
+            <span class="reveal">
+              <span class="item">{{ award.title }}</span>
+            </span>
+            <span class="reveal">
+              <span class="item">
+                <span class="text--light">{{ award.type }}</span>
+              </span>
+            </span>
           </div>
         </div>
       </li>

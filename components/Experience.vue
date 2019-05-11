@@ -3,10 +3,19 @@
     <ul class="list">
       <li v-for="(experience, index) in experiences" :key="index" class="row">
         <div class="col-xs-3 no-padding-right nomobile">
-          <div class="text text--right text--light">{{ experience.dateStart }}<br />{{ experience.dateEnd }}</div>
+          <div class="text text--right text--light">
+            <span class="reveal">
+              <span class="item">{{ experience.dateStart }}</span>
+            </span>
+            <span class="reveal">
+              <span class="item">{{ experience.dateEnd }}</span>
+            </span>
+          </div>
         </div>
         <div class="col-xs-12 col-md-9">
-          <div class="text">{{ experience.label }}</div>
+          <div class="text reveal">
+            <span class="item">{{ experience.label }}</span>
+          </div>
         </div>
       </li>
     </ul>
