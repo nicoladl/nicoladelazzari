@@ -1,5 +1,5 @@
 export const state = () => ({
-  bio: 'Nicola is a frontend developer specialized in javascript development. He works for the most important swiss agencies.',
+  bio: 'Nicola is a frontend developer specialized in javascript development currently working in Lugano. Enthusiastic about all Vue.js ecosystem.',
   menu: [
     {
       label: '2017-<br />-2011',
@@ -10,7 +10,7 @@ export const state = () => ({
       slug: 'about'
     },
     {
-      label: 'CV',
+      label: 'Bio',
       slug: 'cv'
     },
     {
@@ -77,7 +77,7 @@ export const state = () => ({
       dateEnd: '2017'
     },
     {
-      label: 'Octoplus Group',
+      label: 'AKQA',
       dateStart: '2017 -',
       dateEnd: '2011'
     }
@@ -86,17 +86,12 @@ export const state = () => ({
     {
       title: 'CSS Design Awards',
       lenght: 2,
-      type: 'WSOTD'
+      type: 'WOTD'
     },
     {
       title: 'Awwwards',
-      lenght: 10,
-      type: 'SOTD'
-    },
-    {
-      title: 'FWA',
-      lenght: 1,
-      type: 'FWAOTD'
+      lenght: 2,
+      type: 'Mobile Excellence'
     }
   ],
   contacts: [
