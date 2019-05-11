@@ -1,11 +1,5 @@
 import pkg from './package'
 
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: '/'
-  }
-} : {}
-
 export default {
   mode: 'spa',
 
@@ -29,8 +23,6 @@ export default {
   ** Customize the progress-bar color
   */
   loading: { color: '#fff' },
-  
-  ...routerBase,
 
   /*
   ** Global CSS
