@@ -8,7 +8,7 @@
           </div>
         </div>
         <div class="col-xs-12 col-md-9">
-          <div v-for="(project, index) in year.content" :key="index" class="project">
+          <div v-for="(project, index1) in year.content" :key="index1" class="project">
             <Link :item="project" />
             <img class="project__image nomobile" :src="project.image" :alt="project.label" />
           </div>
