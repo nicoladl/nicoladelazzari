@@ -4,9 +4,11 @@
   &__item {
     position: absolute;
     transform: translateY(100vh);
+    transition: color 0.25s ease-out;
 
     &.target {
       color: $red;
+      transition: color 0.25s ease-out;
     }
   }
 }
