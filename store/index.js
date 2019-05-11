@@ -70,6 +70,18 @@ export const state = () => ({
       }
     ]
   },
+  experiences: [
+    {
+      label: 'Octoplus Group',
+      dateStart: 'Present -',
+      dateEnd: '2017'
+    },
+    {
+      label: 'Octoplus Group',
+      dateStart: '2017 -',
+      dateEnd: '2011'
+    }
+  ],
   awards: [
     {
       title: 'CSS Design Awards',
