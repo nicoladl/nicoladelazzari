@@ -26,10 +26,15 @@ a {
 }
 
 .reveal {
-  height: 1em;
+  height: 1.25em;
   overflow: hidden;
   position: relative;
   display: flex;
+  width: 100%;
+
+  .title & {
+    height: 0.91em;
+  }
 
   .item {
     width: 100%;
