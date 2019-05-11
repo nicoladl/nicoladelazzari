@@ -1,7 +1,7 @@
 <template>
   <nav class="menu">
     <ul>
-      <li v-for="(item, index) in menu" :key="index" class="menu__item" :data-id="index">
+      <li v-for="(item, index) in menu" :key="index" :class="[index === 0 ? 'menu__item first' : 'menu__item']" :data-id="index">
         <div :class="index === 0 ? 'text--side' : 'text'" v-html="item.label"></div>
       </li>
     </ul>
@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import TweenMax from 'gsap'
+import { TweenMax, TimelineMax } from 'gsap'
 
 export default {
   data(context) {
@@ -36,19 +36,32 @@ export default {
     function handleIntersect(entries) {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          // refactor
           const el = entry.target
-          const item = menuItems[el.dataset.id]
+          const menuItem = menuItems[el.dataset.id]
           index = parseInt(el.dataset.id)
-          const gne = document.querySelector('.target')
-          // refactor
-          if (gne) {
-            gne.classList.remove('target')
-          }
-          // refactor
-          menuItems[index].classList.add('target')
 
-          TweenMax.to(item, 1, { y: item.offsetHeight * index })
+          const target = document.querySelector('.target')
+          if (target) {
+            target.classList.remove('target')
+          }
+
+          if (index !== 0) {
+            new TimelineMax()
+              .to(menuItem, 1, {
+                y: menuItem.offsetHeight * (index - 1),
+                onComplete: () => {
+                  menuItems[index].classList.add('target')
+                }
+              })
+              .to(menuItems[0], 1, { y: -window.innerHeight }, 0)
+          } else {
+            TweenMax.to(menuItem, 1, { y: 0 })
+            menuItems.forEach((item, index) => {
+              if (index !== 0) {
+                TweenMax.to(menuItems[menuItems.length - index], 1, { y: window.innerHeight + item.offsetHeight * (menuItems.length - index) })
+              }
+            })
+          }
         }
       })
     }
