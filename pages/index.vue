@@ -6,6 +6,7 @@
     <Works />
     <Awards />
     <Contact />
+    <Footer />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import Experience from '../components/Experience'
 import Works from '../components/Works'
 import Awards from '../components/Awards'
 import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 
 export default {
   components: {
@@ -24,7 +26,8 @@ export default {
     Experience,
     Works,
     Awards,
-    Contact
+    Contact,
+    Footer
   },
   mounted() {
     this.$scroll()
