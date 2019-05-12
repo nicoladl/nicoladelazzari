@@ -1,0 +1,25 @@
+.project {
+  position: relative;
+
+  &:hover {
+    .project__image {
+      opacity: 1;
+      transform: scaleX(1) translateX(0);
+      transform-origin: right center;
+      transition: all 0.5s ease-in-out;
+    }
+  }
+
+  &__image {
+    position: absolute;
+    left: calc(#{$unit} * 2);
+    top: -15vw;
+    width: 30vw;
+    height: 30vw;
+    z-index: -1;
+    opacity: 0;
+    transform: scaleX(1.1) translateX(-2vw);
+    transform-origin: right center;
+    transition: all 0.25s ease-in-out;
+  }
+}

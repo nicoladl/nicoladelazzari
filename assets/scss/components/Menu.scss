@@ -1,0 +1,20 @@
+.menu {
+  position: relative;
+
+  &__item {
+    position: absolute;
+    transform: translateY(100vh);
+    transition: color 0.25s ease-out;
+
+    &.first {
+      height: 100vh;
+      display: flex;
+      align-items: center; 
+    }
+
+    &.target {
+      color: $red;
+      transition: color 0.25s ease-out;
+    }
+  }
+}

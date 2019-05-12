@@ -1,0 +1,42 @@
+.title {
+  font-size: 14vw;
+  line-height: 0.91em;
+  display: flex;
+  flex-direction: column;
+
+  &__row {
+    &:first-child, &:last-child {
+      padding-left: 24.9%;
+    }
+
+    span {
+      margin-left: 2.5%;
+    }
+  }
+
+  &--light {
+    font-family: HelveticaNowDisplay-Th, Arial;
+  }
+}
+
+.text {
+  font-size: 1rem;
+  line-height: 1.25rem;
+
+  &--right {
+    text-align: right;
+  }
+
+  &--light {
+	  font-family: HelveticaNowDisplay-Th, Arial;
+  }
+
+  &--side {
+    font-size: 0.4rem;
+  }
+}
+
+.footer {
+  font-size: 0.3rem;
+  text-align: right;
+}

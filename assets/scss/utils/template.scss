@@ -1,0 +1,44 @@
+html {
+  font-size: 65px;
+}
+
+body {
+	font-family: HelveticaNowDisplay-Md, Arial;
+  height: 100vh;
+  overflow: hidden;
+  color: $black;
+  margin: $border;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.no-padding-right {
+  padding-right: 0;
+}
+
+.nomobile {
+  @include mq($until: desktop) {
+    display: none;
+  } 
+}
+
+.reveal {
+  height: 1.25em;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  width: 100%;
+
+  .title & {
+    height: 0.91em;
+  }
+
+  .item {
+    width: 100%;
+    position: absolute;
+    transform: translateY(200px);
+  }
+}
