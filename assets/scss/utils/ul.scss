@@ -1,6 +1,10 @@
 .list {
   li {
-    padding-bottom: 1rem;
+    padding-bottom: 0.25rem;
+
+    @include mq($from: desktop) {
+      padding-bottom: 1rem;
+    }
 
     &:last-child {
       padding: 0;

@@ -3,7 +3,9 @@
   align-items: center;
 
   > span {
-    min-height: 1rem;
+    @include mq($from: desktop) {
+      min-height: 1rem;
+    }
   }
 
   &__icon {

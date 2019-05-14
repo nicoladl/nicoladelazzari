@@ -1,5 +1,8 @@
 <template>
   <section class="section" data-id="4">
+    <h2 class="text text--light pbottom reveal nodesktop">
+      <span class="item">Awards</span>
+    </h2>
     <ul class="list">
       <li v-for="(award, index) in awards" :key="index" class="row">
         <div class="sidebar sidebar--big nomobile">
@@ -15,7 +18,9 @@
             </span>
             <span class="reveal">
               <span class="item">
-                <span class="text--light">{{ award.type }}</span>
+                <span class="text--light">
+                  <span class="nodesktop">{{ award.lenght }} </span>{{ award.type }}
+                </span>
               </span>
             </span>
           </div>

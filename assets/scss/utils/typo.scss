@@ -8,11 +8,11 @@
   &__row {
     @include mq($from: desktop) {
       &:first-child {
-        padding-left: 26.1%;
+        padding-left: 24.6%;
       }
 
       &:last-child {
-        padding-left: 26.5%;
+        padding-left: 24.6%;
       }
 
       span {
@@ -41,6 +41,12 @@
 
   &--light {
 	  font-family: HelveticaNowDisplay-Th, Arial;
+  }
+
+  &--small {
+    font-size: 0.3rem;
+    line-height: 1em;
+    // padding-top: 0.25rem;
   }
 
   &--side {

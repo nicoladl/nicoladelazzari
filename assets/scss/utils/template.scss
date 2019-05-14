@@ -21,10 +21,21 @@ a {
 
 .nomobile {
   @include mq($until: desktop) {
-    display: none;
+    display: none !important;
   }
 }
 
+.nodesktop {
+  @include mq($from: desktop) {
+    display: none !important;
+  }
+}
+
+.pbottom {
+  padding-bottom: 0.25rem;
+}
+
+// reveal
 .reveal {
   height: 1.25em;
   overflow: hidden;
@@ -37,8 +48,16 @@ a {
   }
 
   .item {
-    width: 100%;
-    position: absolute;
-    transform: translateY(200px);
+    @include mq($from: desktop) {
+      width: 100%;
+      position: absolute;
+      transform: translateY(200px);
+    }
+  }
+}
+
+.link {
+  @include mq($until: desktop) {
+    text-decoration: underline;
   }
 }
