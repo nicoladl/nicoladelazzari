@@ -1,16 +1,23 @@
 .title {
+  width: 100%;
   font-size: 14vw;
   line-height: 0.91em;
   display: flex;
   flex-direction: column;
 
   &__row {
-    &:first-child, &:last-child {
-      padding-left: 24.9%;
-    }
+    @include mq($from: desktop) {
+      &:first-child {
+        padding-left: 26.1%;
+      }
 
-    span {
-      margin-left: 2.5%;
+      &:last-child {
+        padding-left: 26.5%;
+      }
+
+      span {
+        margin-left: 2.5%;
+      }
     }
   }
 
@@ -22,6 +29,11 @@
 .text {
   font-size: 1rem;
   line-height: 1.25rem;
+
+  @include mq($until: desktop) {
+    font-size: 0.5rem;
+    line-height: 0.75rem;
+  }
 
   &--right {
     text-align: right;

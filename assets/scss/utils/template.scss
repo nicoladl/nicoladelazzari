@@ -22,7 +22,7 @@ a {
 .nomobile {
   @include mq($until: desktop) {
     display: none;
-  } 
+  }
 }
 
 .reveal {

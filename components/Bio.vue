@@ -1,6 +1,7 @@
 <template>
   <section class="section row end-xs" data-id="1">
-    <div class="col-xs-12 col-md-9">
+    <div class="sidebar sidebar--big nomobile"></div>
+    <div class="content content--little">
       <div class="text">{{ bio }}</div>
     </div>
   </section>

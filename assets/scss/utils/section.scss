@@ -3,9 +3,12 @@
 
   &__plain {
     padding: 0;
-    min-height: 100vh;
     display: flex;
     align-items: center;
+
+    @include mq($from: desktop) {
+      min-height: 100vh;
+    }
   }
 
   &--nobottom {

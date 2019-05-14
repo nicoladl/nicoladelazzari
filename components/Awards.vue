@@ -2,13 +2,13 @@
   <section class="section" data-id="4">
     <ul class="list">
       <li v-for="(award, index) in awards" :key="index" class="row">
-        <div class="col-xs-3 no-padding-right nomobile">
+        <div class="sidebar sidebar--big nomobile">
           <div class="text text--right text--light reveal">
             <br />
             <span class="item">{{ award.lenght }}</span>
           </div>
         </div>
-        <div class="col-xs-12 col-md-9">
+        <div class="content content--little">
           <div class="text">
             <span class="reveal">
               <span class="item">{{ award.title }}</span>

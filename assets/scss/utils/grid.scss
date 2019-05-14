@@ -1,0 +1,30 @@
+.row {
+  width: 100%;
+  display: flex;
+
+  .sidebar {
+    width: 20%;
+    padding-right: 5%;
+    box-sizing: border-box;
+
+    &--big {
+      width: 30%;
+    }
+  }
+
+  .content {
+    width: 80%;
+
+    @include mq($until: desktop) {
+      width: 100%;
+    }
+
+    &--little {
+      width: 70%;
+
+      @include mq($until: desktop) {
+        width: 100%;
+      }
+    }
+  }
+}

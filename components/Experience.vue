@@ -2,7 +2,7 @@
   <section class="section" data-id="2">
     <ul class="list">
       <li v-for="(experience, index) in experiences" :key="index" class="row">
-        <div class="col-xs-3 no-padding-right nomobile">
+        <div class="sidebar sidebar--big nomobile">
           <div class="text text--right text--light">
             <span class="reveal">
               <span class="item">{{ experience.dateStart }}</span>
@@ -12,7 +12,7 @@
             </span>
           </div>
         </div>
-        <div class="col-xs-12 col-md-9">
+        <div class="content content--little">
           <div class="text reveal">
             <span class="item">{{ experience.label }}</span>
           </div>
