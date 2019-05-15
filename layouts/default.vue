@@ -1,5 +1,6 @@
 <template>
   <div class="row">
+    <Scroll />
     <div class="sidebar nomobile">
       <Menu />
     </div>
@@ -11,10 +12,12 @@
 
 <script>
 import Menu from '~/components/Menu'
+import Scroll from '~/components/Scroll'
 
 export default {
   components: {
-    Menu
+    Menu,
+    Scroll
   }
 }
 </script>

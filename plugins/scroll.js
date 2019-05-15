@@ -6,6 +6,9 @@ import MobileDetect from 'mobile-detect'
 Vue.prototype.$scroll = () => {
   const easeOut = Power4.easeOut
 
+  const scroll = document.querySelector('.scroll')
+  TweenMax.fromTo(scroll, 1, { autoAlpha: 0, y: 50 }, { autoAlpha: 1, y: 0, delay: 2, ease: easeOut })
+
   const scroller = {
     target: document.querySelector('.js-scroller'),
     targetHeight: 0,
@@ -71,6 +74,8 @@ Vue.prototype.$scroll = () => {
     wh = scroller.targetHeight - window.innerHeight
 
     if (scroller.y >= 0 && scroller.y <= wh) {
+      TweenMax.to(scroll, 0.5, { autoAlpha: 0 })
+
       delta = ts - te - preDelta
 
       !md.mobile() ? (scroller.y += pixelY) : (scroller.y += delta * mobileScrollRatio)

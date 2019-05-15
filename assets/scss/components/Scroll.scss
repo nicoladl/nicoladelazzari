@@ -1,0 +1,8 @@
+.scroll {
+  position: fixed;
+  bottom: calc(#{$border} * 2);
+  left: 15%;
+  font-size: 30px;
+  line-height: 1em;
+  transform: rotate(90deg);
+}

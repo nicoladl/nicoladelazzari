@@ -7,10 +7,10 @@
       <span class="title__row reveal">
         <span class="item">De<span>Lazzari</span></span>
       </span>
-      <span class="title__row reveal">
+      <span class="title__row grey reveal">
         <span class="item">Swiss</span>
       </span>
-      <span class="title__row reveal">
+      <span class="title__row grey reveal">
         <span class="item">Portfolio</span>
       </span>
     </h1>
