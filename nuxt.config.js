@@ -11,7 +11,15 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      { hid: 'description', name: 'description', content: pkg.description },
+      { property: 'og:title', name: 'og:title', content: pkg.title },
+      { property: 'og:description', name: 'og:description', content: pkg.description },
+      { property: 'og:type', name: 'og:type', content: 'website' },
+      { property: 'og:url', name: 'og:url', content: `nicoladelazzari.com` },
+      { property: 'og:image', name: 'og:image', content: `/images/share.jpg` },
+      { property: 'twitter:card', name: 'twitter:card', content: `summary_large_image` },
+      { property: 'twitter:site', name: 'twitter:site', content: `@nicoladelazzari` },
+      { property: 'twitter:creator', name: 'twitter:creator', content: `@nicoladelazzari` },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
