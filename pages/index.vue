@@ -30,6 +30,7 @@ export default {
     Footer
   },
   mounted() {
+    this.$lines()
     this.$scroll()
     this.$reveal()
   }

@@ -1,5 +1,5 @@
 export const state = () => ({
-  bio: 'Nicola is a frontend developer specialized in javascript development currently working in Lugano. Enthusiastic about all Vue.js ecosystem.',
+  bio: 'Nicola is a frontend developer specialized in javascript development currently working in Zürich. Enthusiastic about all React.js and Vue.js ecosystem.',
   menu: [
     {
       label: '2017-<br />-2011',
@@ -72,8 +72,13 @@ export const state = () => ({
   },
   experiences: [
     {
-      label: 'Octoplus Group',
+      label: 'Move Digital AG',
       dateStart: 'Present -',
+      dateEnd: '2019'
+    },
+    {
+      label: 'Octoplus Group',
+      dateStart: '2019 -',
       dateEnd: '2017'
     },
     {
@@ -86,11 +91,11 @@ export const state = () => ({
     {
       title: 'CSS Design Awards',
       lenght: 2,
-      type: 'WOTD'
+      type: 'Website Of The Day'
     },
     {
       title: 'Awwwards',
-      lenght: 2,
+      lenght: 3,
       type: 'Mobile Excellence'
     }
   ],
