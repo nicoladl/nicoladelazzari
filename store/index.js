@@ -1,8 +1,8 @@
 export const state = () => ({
-  bio: 'Nicola is a frontend developer specialized in javascript development currently working in Zürich. Enthusiastic about all React.js and Vue.js ecosystem.',
+  bio: 'Nicola is a frontend developer specialized in javascript development currently working in Zurich. Enthusiastic about all React.js and Vue.js ecosystem.<br /><br />It never gets easier, you just go faster.<br />Greg LeMond.',
   menu: [
     {
-      label: '2017-<br />-2011',
+      label: '2020-<br />-2011',
       slug: 'intro'
     },
     {
