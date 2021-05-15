@@ -1,8 +1,9 @@
 export const state = () => ({
-  bio: 'Nicola is a frontend developer specialized in javascript development currently working in Zurich. Enthusiastic about all React.js and Vue.js ecosystem.<br /><br />It never gets easier, you just go faster.<br />Greg LeMond.',
+  bio:
+    'Nicola is a Senior Frontend Engineer specialized in Javascript development. Currently working in <strike>Venice</strike><span style="padding-right: 15px"></span><strike>Lugano</strike> Zurich. Enthusiastic about all React.js and Vue.js ecosystem.<br /><br /><span style="font-style: italic">It never gets easier, you just go faster</span><br /><span style="font-family: HelveticaNowDisplay-Th, Arial">Greg LeMond</span>',
   menu: [
     {
-      label: '2020-<br />-2011',
+      label: '1985<br />2021',
       slug: 'intro'
     },
     {
@@ -55,16 +56,6 @@ export const state = () => ({
             label: 'Charly Zenger',
             image: './images/charlyzenger.jpg',
             href: 'https://charlyzenger.ch'
-          }
-        ]
-      },
-      {
-        label: '2017',
-        content: [
-          {
-            label: 'H-Farm',
-            image: './images/hfarm.jpg',
-            href: 'https://h-farm.com'
           }
         ]
       }

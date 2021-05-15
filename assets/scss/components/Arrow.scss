@@ -24,4 +24,18 @@
       transition: opacity 0.5s ease-out;
     }
   }
+
+  &__label {
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      height: 1px;
+      width: 100%;
+      background-color: black;
+      left: 0;
+      bottom: 8px;
+    }
+  }
 }
