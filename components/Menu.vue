@@ -52,7 +52,7 @@ export default {
                 y: menuItem.offsetHeight * (index - 1),
                 ease: easeInOut,
                 onComplete: () => {
-                  menuItems[index].classList.add('target')
+                  menuItems[index] ? menuItems[index].classList.add('target') : void 0
                 }
               })
               .to(
