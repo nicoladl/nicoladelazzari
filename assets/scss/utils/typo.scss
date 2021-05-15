@@ -39,4 +39,18 @@
 .footer {
   font-size: 0.3rem;
   text-align: right;
+
+  .link {
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      height: 1px;
+      width: 100%;
+      background-color: black;
+      left: 0;
+      bottom: 0px;
+    }
+  }
 }
