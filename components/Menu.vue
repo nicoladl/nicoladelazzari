@@ -46,7 +46,7 @@ export default {
             target.classList.remove('target')
           }
 
-          if (index !== 0) {
+          if (index !== 0 && !!menuItem && !!menuItems) {
             new TimelineMax()
               .to(menuItem, 2, {
                 y: menuItem.offsetHeight * (index - 1),

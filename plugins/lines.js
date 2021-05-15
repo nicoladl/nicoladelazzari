@@ -14,7 +14,6 @@ Vue.prototype.$lines = () => {
     // for every item create new node for reveal effect
     split.lines.forEach(line => {
       const spanContainer = document.createElement('div')
-      console.log(spanContainer)
       spanContainer.classList.add('reveal')
 
       spanContainer.appendChild(line)
