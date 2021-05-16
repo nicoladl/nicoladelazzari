@@ -1,6 +1,8 @@
 export const state = () => ({
   bio:
-    'Nicola is a Senior Frontend Engineer specialized in Javascript development. Currently working in <strike>Venice</strike><span style="padding-right: 15px"></span><strike>Lugano</strike> Zurich. Enthusiastic about all React.js and Vue.js ecosystem.<br /><br /><span style="font-style: italic">It never gets easier, you just go faster</span><br /><span style="font-family: HelveticaNowDisplay-Th, Arial">Greg LeMond</span>',
+    'Nicola is a Senior Frontend Engineer specialized in Javascript development. Currently working in <strike>Venice</strike><span style="padding-right: 15px"></span><strike>Lugano</strike> Zurich. Enthusiastic about all React.js and Vue.js ecosystem.<br/><br/>',
+  quote: '"It never gets easier, you just go faster"',
+  quoteSource: 'Greg LeMond',
   menu: [
     {
       label: '1985<br />2021',
