@@ -27,7 +27,7 @@ export default {
   },
   data(context) {
     return {
-      works: context.$store.state.works
+      works: context.$store.state.projects
     }
   }
 }

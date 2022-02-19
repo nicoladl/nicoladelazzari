@@ -26,7 +26,7 @@
 export default {
   data(context) {
     return {
-      experiences: context.$store.state.experiences
+      experiences: context.$store.state.experience
     }
   }
 }

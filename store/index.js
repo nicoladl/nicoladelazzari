@@ -1,5 +1,5 @@
 export const state = () => ({
-  bio:
+  about:
     'Nicola is a Senior Frontend Engineer specialized in Javascript development. Currently working in <strike>Venice</strike><span style="padding-right: 15px"></span><strike>Lugano</strike> Zurich. Enthusiastic about all React.js and Vue.js ecosystem.<br/><br/>',
   quote: '"It never gets easier, you just go faster"',
   quoteSource: 'Greg LeMond',
@@ -13,12 +13,12 @@ export const state = () => ({
       slug: 'about'
     },
     {
-      label: 'Bio',
-      slug: 'cv'
+      label: 'Experience',
+      slug: 'experience'
     },
     {
-      label: 'Works',
-      slug: 'works'
+      label: 'Projects',
+      slug: 'projects'
     },
     {
       label: 'Awards',
@@ -29,7 +29,7 @@ export const state = () => ({
       slug: 'contact'
     }
   ],
-  works: {
+  projects: {
     years: [
       {
         label: '2019',
@@ -63,7 +63,7 @@ export const state = () => ({
       }
     ]
   },
-  experiences: [
+  experience: [
     {
       label: 'Move Digital AG',
       dateStart: 'Present -',

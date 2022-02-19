@@ -16,7 +16,7 @@
 export default {
   data(context) {
     return {
-      bio: context.$store.state.bio,
+      bio: context.$store.state.about,
       quote: context.$store.state.quote,
       quoteSource: context.$store.state.quoteSource
     }
