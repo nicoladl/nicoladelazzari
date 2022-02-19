@@ -5,7 +5,7 @@ export const state = () => ({
   quoteSource: 'Greg LeMond',
   menu: [
     {
-      label: '1985<br />2021',
+      label: '1985<br />2022',
       slug: 'intro'
     },
     {
