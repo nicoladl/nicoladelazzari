@@ -36,6 +36,8 @@ export default {
     this.$lines()
     this.$scroll()
     this.$reveal()
+
+    console.log('You are a stalker!')
   }
 }
 </script>
