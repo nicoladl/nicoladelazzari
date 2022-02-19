@@ -37,7 +37,7 @@ export default {
     this.$scroll()
     this.$reveal()
 
-    console.log('You are a stalker!')
+    console.log('There is nothing to see here')
   }
 }
 </script>
