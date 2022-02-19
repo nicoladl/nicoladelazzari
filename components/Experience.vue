@@ -16,6 +16,9 @@
           <div class="text reveal">
             <span class="item">{{ experience.label }}</span>
           </div>
+          <div class="text reveal category">
+            <span class="item text--light text--side">{{ experience.category }}</span>
+          </div>
         </div>
       </li>
     </ul>

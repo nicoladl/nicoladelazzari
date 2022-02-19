@@ -1,16 +1,15 @@
 <template>
-  <section class="section" data-id="3">
+  <section class="section" data-id="4">
     <ul class="list">
-      <li v-for="(year, index) in works.years" :key="index" class="row">
+      <li v-for="(technology, index) in technologies.technology" :key="index" class="row">
         <div class="col-xs-3 no-padding-right nomobile">
           <div class="text text--right text--light reveal">
-            <span class="item">{{ year.label }}</span>
+            <span class="item">{{ technology.label }}</span>
           </div>
         </div>
         <div class="col-xs-12 col-md-9">
-          <div v-for="(project, index1) in year.content" :key="index1" class="project">
+          <div v-for="(project, index1) in technology.content" :key="index1" class="project">
             <Link :item="project" />
-            <img class="project__image nomobile" :src="project.image" :alt="project.label" />
           </div>
         </div>
       </li>
@@ -27,7 +26,7 @@ export default {
   },
   data(context) {
     return {
-      works: context.$store.state.projects
+      technologies: context.$store.state.technologies
     }
   }
 }
