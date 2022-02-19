@@ -8,7 +8,7 @@ Vue.prototype.$reveal = () => {
   const options = {
     root: null,
     rootMargin: '0px',
-    threshold: 0.25 // item to detect part visible
+    threshold: 0.1 // item to detect part visible
   }
 
   const observer = new IntersectionObserver(handleIntersect, options)

@@ -137,10 +137,6 @@ export const state = () => ({
           {
             label: 'Storybook',
             href: 'https://storybook.js.org/'
-          },
-          {
-            label: 'Everything that requires CSS',
-            href: 'https://en.wikipedia.org/wiki/CSS'
           }
         ]
       }
