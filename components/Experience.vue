@@ -5,10 +5,10 @@
         <div class="col-xs-3 no-padding-right nomobile">
           <div class="text text--right text--light">
             <span class="reveal">
-              <span class="item">{{ experience.dateStart }}</span>
+              <span class="item">{{ experience.dateEnd }}</span>
             </span>
             <span class="reveal">
-              <span class="item">{{ experience.dateEnd }}</span>
+              <span class="item">{{ experience.dateStart }}</span>
             </span>
           </div>
         </div>

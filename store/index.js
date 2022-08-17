@@ -35,22 +35,32 @@ export const state = () => ({
   quoteSource: 'Greg LeMond',
   experience: [
     {
+      label: 'Arcual',
+      dateStart: '2022',
+      dateEnd: 'now',
+      category: '#SoftwareDevelopment, #TechLead, #Frontend',
+      location: 'Zurich'
+    },
+    {
       label: 'Move Digital AG',
-      dateStart: 'Present -',
-      dateEnd: '2019',
-      category: '#SoftwareDevelopment, #TechLead, #Frontend'
+      dateEnd: '2022',
+      dateStart: '2019',
+      category: '#SoftwareDevelopment, #TechLead, #Frontend',
+      location: 'Zurich'
     },
     {
       label: 'Octoplus Group',
-      dateStart: '2019 -',
-      dateEnd: '2017',
-      category: '#WebMarketing, #Frontend'
+      dateEnd: '2019',
+      dateStart: '2017',
+      category: '#WebMarketing, #Frontend',
+      location: 'Lugano'
     },
     {
       label: 'AKQA',
-      dateStart: '2017 -',
-      dateEnd: '2011',
-      category: '#WebMarketing, #Frontend'
+      dateEnd: '2017',
+      dateStart: '2011',
+      category: '#WebMarketing, #Frontend',
+      location: 'Venice'
     }
   ],
   projects: {
