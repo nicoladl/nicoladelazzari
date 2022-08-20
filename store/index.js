@@ -21,10 +21,6 @@ export const state = () => ({
       slug: 'technology'
     },
     {
-      label: 'Awards',
-      slug: 'awards'
-    },
-    {
       label: 'Contact',
       slug: 'contact'
     }
@@ -79,11 +75,6 @@ export const state = () => ({
         label: '2018',
         content: [
           {
-            label: 'Mistretta Coiffure',
-            image: './images/mistretta.jpg',
-            href: 'https://mistretta.ch'
-          },
-          {
             label: 'Axure Broker',
             image: './images/axure.jpg',
             href: 'https://axure-broker.ch'
@@ -98,72 +89,8 @@ export const state = () => ({
     ]
   },
   technologies: {
-    technology: [
-      {
-        label: 'React',
-        content: [
-          {
-            label: 'Hooks',
-            href: 'https://reactjs.org/docs/hooks-intro.html'
-          },
-          {
-            label: 'Redux',
-            href: 'https://redux.js.org/'
-          },
-          {
-            label: 'Redux Toolkit',
-            href: 'https://redux-toolkit.js.org/'
-          }
-        ]
-      },
-      {
-        label: 'Vue.js',
-        content: [
-          {
-            label: 'Nuxt',
-            href: 'https://nuxtjs.org/'
-          },
-          {
-            label: 'VueX',
-            href: 'https://vuex.vuejs.org/'
-          }
-        ]
-      },
-      {
-        label: '',
-        content: [
-          {
-            label: 'GraphQL',
-            href: 'https://graphql.org/'
-          },
-          {
-            label: 'ECMAScript',
-            href: 'https://en.wikipedia.org/wiki/ECMAScript'
-          },
-          {
-            label: 'GSAP',
-            href: 'https://greensock.com/gsap/'
-          },
-          {
-            label: 'Storybook',
-            href: 'https://storybook.js.org/'
-          }
-        ]
-      }
-    ]
+    technology: [['React', 'Hooks', 'Redux', 'Redux Toolkit'], ['VueJs', 'Nuxt', 'VueX'], ['GraphQL', 'Rest API', 'GSAP', 'Storybook']]
   },
-  awards: [
-    {
-      title: 'CSS Design Awards',
-      lenght: 2,
-      type: 'Website Of The Day'
-    },
-    {
-      title: 'Awwwards',
-      lenght: 3,
-      type: 'Mobile Excellence'
-    }
-  ],
   contacts: [
     {
       label: 'Github',

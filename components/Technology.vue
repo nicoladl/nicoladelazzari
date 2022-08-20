@@ -1,16 +1,10 @@
 <template>
-  <section class="section" data-id="4">
-    <ul class="list">
-      <li v-for="(technology, index) in technologies.technology" :key="index" class="row">
-        <div class="col-xs-3 no-padding-right nomobile">
-          <div class="text text--right text--light reveal">
-            <span class="item">{{ technology.label }}</span>
-          </div>
-        </div>
-        <div class="col-xs-12 col-md-9">
-          <div v-for="(project, index1) in technology.content" :key="index1" class="project">
-            <Link :item="project" />
-          </div>
+  <section class="section row end-xs" data-id="4">
+    <ul class="list col-xs-12 col-md-9">
+      <li v-for="(technology, index) in technologies.technology" :key="index">
+        <div v-for="(tech, index1) in technology" :key="index1" class="item text text--light reveal">
+          <span>#{{ tech }}</span>
+          <span v-if="index1 !== technology.length - 1"> </span>
         </div>
       </li>
     </ul>
@@ -18,12 +12,7 @@
 </template>
 
 <script>
-import Link from '../components/Link'
-
 export default {
-  components: {
-    Link
-  },
   data(context) {
     return {
       technologies: context.$store.state.technologies
