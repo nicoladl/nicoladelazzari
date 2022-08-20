@@ -38,28 +38,28 @@ export const state = () => ({
       label: 'Arcual',
       dateStart: '2022',
       dateEnd: 'now',
-      category: '#SoftwareDevelopment, #TechLead, #Frontend',
+      role: 'Senior Frontend Engineer',
       location: 'Zurich'
     },
     {
       label: 'Move Digital AG',
       dateEnd: '2022',
       dateStart: '2019',
-      category: '#SoftwareDevelopment, #TechLead, #Frontend',
+      role: 'Senior Frontend Engineer / Team Leader',
       location: 'Zurich'
     },
     {
       label: 'Octoplus Group',
       dateEnd: '2019',
       dateStart: '2017',
-      category: '#WebMarketing, #Frontend',
+      role: 'Senior Frontend Developer',
       location: 'Lugano'
     },
     {
       label: 'AKQA',
       dateEnd: '2017',
       dateStart: '2011',
-      category: '#WebMarketing, #Frontend',
+      role: 'Frontend Developer',
       location: 'Venice'
     }
   ],

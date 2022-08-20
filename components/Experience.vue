@@ -16,8 +16,10 @@
           <div class="text reveal">
             <span class="item">{{ experience.label }}</span>
           </div>
-          <div class="text reveal category">
-            <span class="item text--light text--side">{{ experience.category }}</span>
+          <div class="text reveal meta">
+            <span class="item text--light text--side">
+              <strong>{{ experience.role }}</strong> - {{ experience.location }}
+            </span>
           </div>
         </div>
       </li>
