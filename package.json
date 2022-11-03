@@ -16,7 +16,7 @@
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
-    "@nuxtjs/pwa": "^2.6.0",
+    "@nuxtjs/pwa": "^3.3.5",
     "cross-env": "^5.2.0",
     "flexboxgrid": "^6.3.1",
     "gsap": "^2.1.2",
