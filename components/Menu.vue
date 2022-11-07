@@ -2,6 +2,7 @@
   <nav class="menu">
     <ul>
       <li v-for="(item, index) in menu" :key="index" :class="[index === 0 ? 'menu__item first' : 'menu__item']" :data-id="index">
+        <!-- eslint-disable-next-line vue/no-v-html -->
         <div :class="index === 0 ? 'text--side' : 'text'" v-html="item.label"></div>
       </li>
     </ul>
