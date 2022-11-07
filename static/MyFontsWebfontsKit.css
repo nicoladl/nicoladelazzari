@@ -1,34 +1,29 @@
 /**
  * @license
  * MyFonts Webfont Build ID 3757976, 2019-05-09T14:43:13-0400
- * 
+ *
  * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are 
+ * Agreement(s) entered into by the website owner. All other parties are
  * explicitly restricted from using the Licensed Webfonts(s).
- * 
+ *
  * You may obtain a valid license at the URLs below.
- * 
- * Webfont: HelveticaNowDisplay-Th by Monotype 
+ *
+ * Webfont: HelveticaNowDisplay-Th by Monotype
  * URL: https://www.myfonts.com/fonts/mti/helvetica-now/display-thin/
- * 
- * Webfont: HelveticaNowDisplay-Md by Monotype 
+ *
+ * Webfont: HelveticaNowDisplay-Md by Monotype
  * URL: https://www.myfonts.com/fonts/mti/helvetica-now/display-medium/
- * 
- * 
- * License: https://www.myfonts.com/viewlicense?type=web&buildid=3757976
+ *
+ *
  * Licensed pageviews: 250,000
  * Webfonts copyright: Copyright © 2019 Monotype Imaging Inc. All rights reserved.
- * 
+ *
  * © 2019 MyFonts Inc
 */
 
 
 /* @import must be at top of file, otherwise CSS will not work */
-@import url("//hello.myfonts.net/count/395798");
-
-  
 @font-face {font-family: 'HelveticaNowDisplay-Th';src: url('fonts/395798_0_0.eot');src: url('fonts/395798_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/395798_0_0.woff2') format('woff2'),url('fonts/395798_0_0.woff') format('woff'),url('fonts/395798_0_0.ttf') format('truetype');}
- 
-  
+
+
 @font-face {font-family: 'HelveticaNowDisplay-Md';src: url('fonts/395798_1_0.eot');src: url('fonts/395798_1_0.eot?#iefix') format('embedded-opentype'),url('fonts/395798_1_0.woff2') format('woff2'),url('fonts/395798_1_0.woff') format('woff'),url('fonts/395798_1_0.ttf') format('truetype');}
- 
