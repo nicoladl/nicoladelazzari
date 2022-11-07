@@ -27,9 +27,7 @@ Vue.prototype.$reveal = () => {
           TweenMax.fromTo(
             el.querySelector('.item'),
             2,
-            {
-              y: el.offsetHeight
-            },
+            { y: el.offsetHeight },
             {
               ...tweenEnd,
               onComplete: el.classList.add('revealed')

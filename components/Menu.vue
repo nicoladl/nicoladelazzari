@@ -55,15 +55,7 @@ export default {
                   menuItems[index] ? menuItems[index].classList.add('target') : void 0
                 }
               })
-              .to(
-                menuItems[0],
-                2,
-                {
-                  y: -window.innerHeight,
-                  ease: easeInOut
-                },
-                0
-              )
+              .to(menuItems[0], 2, { y: -window.innerHeight, ease: easeInOut }, 0)
           } else {
             TweenMax.to(menuItem, 2, { y: 0 })
             menuItems.forEach((item, index) => {
