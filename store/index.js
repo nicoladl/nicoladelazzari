@@ -1,7 +1,7 @@
 export const state = () => ({
   menu: [
     {
-      label: '1985<br />2022',
+      label: '1985<br />2023',
       slug: 'intro'
     },
     {
@@ -25,8 +25,7 @@ export const state = () => ({
       slug: 'contact'
     }
   ],
-  about:
-    'Nicola is a Senior Frontend Engineer with a focus on Javascript. Currently working in <strike>Venice</strike><span style="padding-right: 15px"></span><strike>Lugano</strike> Zurich. Enthusiastic about all React.js and Vue.js ecosystem.<br/><br/>',
+  about: 'Nicola is a Senior Frontend Engineer with a focus on Javascript. Currently working in <s>Venice</s><span style="padding-right: 15px"></span><s>Lugano</s> Zurich. Enthusiastic about all React.js and Vue.js ecosystem.<br/><br/>',
   quote: '"It never gets easier, you just go faster"',
   quoteSource: 'Greg LeMond',
   experience: [
