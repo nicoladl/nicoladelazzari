@@ -31,7 +31,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~/plugins/scroll.js', '~/plugins/reveal.js', '~/plugins/lines.js', { src: '~plugins/ga.js', ssr: false }, '@/plugins/gtag.js'],
+  plugins: ['~/plugins/scroll.js', '~/plugins/reveal.js', '~/plugins/lines.js', '@/plugins/gtag.js'],
 
   /*
    ** Nuxt.js modules
