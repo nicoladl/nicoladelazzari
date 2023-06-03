@@ -23,7 +23,8 @@
     "mobile-detect": "^1.4.3",
     "normalize-wheel": "^1.0.1",
     "nuxt": "^2.4.0",
-    "sass-mq": "^5.0.0"
+    "sass-mq": "^5.0.0",
+    "vue-gtag": "^2.0.1"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^0.0.1",
