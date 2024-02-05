@@ -22,7 +22,7 @@
     "gsap": "^2.1.2",
     "mobile-detect": "^1.4.3",
     "normalize-wheel": "^1.0.1",
-    "nuxt": "^2.4.0",
+    "nuxt": "^2.17.3",
     "sass-mq": "^5.0.0",
     "vue-gtag": "^1.16.1"
   },
