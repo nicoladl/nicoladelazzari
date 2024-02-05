@@ -22,7 +22,7 @@ a {
 .nomobile {
   @include mq($until: desktop) {
     display: none;
-  } 
+  }
 }
 
 .reveal {
@@ -37,6 +37,7 @@ a {
   }
 
   .item {
+    text-align: left !important;
     width: 100%;
     position: absolute;
     transform: translateY(200px);

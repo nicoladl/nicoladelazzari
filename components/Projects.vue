@@ -10,7 +10,7 @@
         <div class="col-xs-12 col-md-9">
           <div v-for="(project, index1) in year.content" :key="index1" class="project">
             <Link :item="project" />
-            <img class="project__image nomobile" :src="project.image" :alt="project.label" />
+            <img :src="project.image" :alt="project.label" class="project__image nomobile" />
           </div>
         </div>
       </li>

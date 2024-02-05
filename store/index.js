@@ -88,7 +88,11 @@ export const state = () => ({
     ]
   },
   technologies: {
-    technology: [['React', 'NextJS', 'Redux', 'Redux Toolkit'], ['VueJS', 'Nuxt', 'Pinia'], ['GraphQL', 'Rest API', 'SOLID']]
+    technology: [
+      ['React', 'NextJS', 'Redux', 'Redux Toolkit'],
+      ['VueJS', 'Nuxt', 'Pinia'],
+      ['GraphQL', 'Rest API', 'SOLID']
+    ]
   },
   contacts: [
     {
