@@ -1,7 +1,7 @@
 export const state = () => ({
   menu: [
     {
-      label: '1985<br />2023',
+      label: '1985<br />2024',
       slug: 'intro'
     },
     {
@@ -25,7 +25,7 @@ export const state = () => ({
       slug: 'contact'
     }
   ],
-  about: 'Nicola is a Senior Frontend Engineer with a focus on Javascript. Currently working in <s>Venice</s><span style="padding-right: 15px"></span><s>Lugano</s> Zurich. Enthusiastic about all React.js and Vue.js ecosystem.<br/><br/>',
+  about: 'Nicola is a Senior Frontend Engineer with a focus on Javascript. Currently working in <s>Venice</s><span style="padding-right: 15px"></span><s>Lugano</s> Zurich. Enthusiastic about all React and Vue ecosystem.<br/><br/>',
   quote: '"It never gets easier, you just go faster"',
   quoteSource: 'Greg LeMond',
   experience: [
@@ -88,7 +88,7 @@ export const state = () => ({
     ]
   },
   technologies: {
-    technology: [['React', 'Hooks', 'Redux', 'Redux Toolkit'], ['VueJs', 'Nuxt', 'VueX'], ['GraphQL', 'Rest API', 'GSAP', 'Storybook']]
+    technology: [['React', 'NextJS', 'Redux', 'Redux Toolkit'], ['VueJS', 'Nuxt', 'Pinia'], ['GraphQL', 'Rest API', 'SOLID']]
   },
   contacts: [
     {
