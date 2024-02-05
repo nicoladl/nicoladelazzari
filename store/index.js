@@ -9,7 +9,7 @@ export const state = () => ({
       slug: 'about'
     },
     {
-      label: 'Experience',
+      label: 'Career',
       slug: 'experience'
     },
     {
@@ -17,7 +17,7 @@ export const state = () => ({
       slug: 'projects'
     },
     {
-      label: 'Technology',
+      label: 'Tech',
       slug: 'technology'
     },
     {
