@@ -104,7 +104,7 @@ export const state = () => ({
       href: 'https://www.linkedin.com/in/nicoladelazzari/'
     },
     {
-      label: 'Twitter',
+      label: 'X',
       href: 'https://twitter.com/nicoladelazzari'
     }
   ]
