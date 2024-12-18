@@ -12,10 +12,8 @@
 import Intro from '../components/Intro'
 import Bio from '../components/Bio'
 import Experience from '../components/Experience'
-import Projects from '../components/Projects'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
-import Technology from '../components/Technology'
 
 export default {
   components: {
