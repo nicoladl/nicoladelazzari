@@ -3,8 +3,6 @@
     <Intro />
     <Bio />
     <Experience />
-    <Projects />
-    <Technology />
     <Contact />
     <Footer />
   </div>
@@ -24,8 +22,6 @@ export default {
     Intro,
     Bio,
     Experience,
-    Projects,
-    Technology,
     Contact,
     Footer
   },

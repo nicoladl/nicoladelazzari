@@ -3,37 +3,31 @@ export const state = () => ({
     {
       label: '1985<br />2024',
       slug: 'intro'
-    },
-    {
-      label: 'About',
-      slug: 'about'
-    },
-    {
-      label: 'Career',
-      slug: 'experience'
-    },
-    {
-      label: 'Projects',
-      slug: 'projects'
-    },
-    {
-      label: 'Tech',
-      slug: 'technology'
-    },
-    {
-      label: 'Contact',
-      slug: 'contact'
     }
   ],
-  about: 'Nicola is a Senior Frontend Engineer with a focus on Javascript. Currently working in <s>Venice</s><span style="padding-right: 15px"></span><s>Lugano</s> Zurich. Enthusiastic about all React and Vue ecosystem.<br/><br/>',
+  about: 'I am an Engineering Manager <s>Senior Frontend Engineer</s> with Certified Scrum Master and Product Owner certifications. Specializing in leading high-performing teams and driving successful product development. Based in <s>Venice</s><span style="padding-right: 15px"><s>Lugano</s></span>Zurich, I focus on delivering scalable, user-centric frontend software solutions by combining strategic leadership, agile methodologies, and modern web technologies.<br/><br/>',
   quote: '"It never gets easier, you just go faster"',
   quoteSource: 'Greg LeMond',
   experience: [
     {
-      label: 'Arcual',
-      dateStart: '2022',
+      label: 'Palisis AG',
+      dateStart: '2025',
       dateEnd: 'now',
-      role: 'Senior Frontend Engineer',
+      role: 'Engineering Manager',
+      location: 'Zurich'
+    },
+    {
+      label: 'Health Info Net AG',
+      dateStart: '2024',
+      dateEnd: '2025',
+      role: 'Technical Manager',
+      location: 'Zurich'
+    },
+    {
+      label: 'Arcual AG',
+      dateStart: '2022',
+      dateEnd: '2024',
+      role: 'Frontend Team Leader',
       location: 'Zurich'
     },
     {
@@ -87,13 +81,6 @@ export const state = () => ({
       }
     ]
   },
-  technologies: {
-    technology: [
-      ['React', 'NextJS', 'Redux', 'Redux Toolkit'],
-      ['VueJS', 'Nuxt', 'Pinia'],
-      ['GraphQL', 'Rest API', 'SOLID']
-    ]
-  },
   contacts: [
     {
       label: 'Github',
@@ -102,10 +89,6 @@ export const state = () => ({
     {
       label: 'LinkedIn',
       href: 'https://www.linkedin.com/in/nicoladelazzari/'
-    },
-    {
-      label: 'X',
-      href: 'https://twitter.com/nicoladelazzari'
     }
   ]
 })
