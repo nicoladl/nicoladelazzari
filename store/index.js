@@ -5,7 +5,7 @@ export const state = () => ({
       slug: 'intro'
     }
   ],
-  about: 'I am an Engineering Manager <s>Senior Frontend Engineer</s> with Certified Scrum Master and Product Owner certifications. Specializing in leading high-performing teams and driving successful product development. Based in <s>Venice</s><span style="padding-right: 15px"><s>Lugano</s></span>Zurich, I focus on delivering scalable, user-centric frontend software solutions by combining strategic leadership, agile methodologies, and modern web technologies.<br/><br/>',
+  about: 'I am an Engineering Manager <s>Senior Frontend Engineer</s> with Certified Scrum Master and Product Owner certifications. Specializing in leading high-performing teams and driving successful product development. Based in <s>Venice</s><span style="padding-right: 15px"><s>Lugano</s></span>Zurich, I focus on delivering scalable, user-centric software solutions by combining strategic leadership, agile methodologies, and modern web technologies.<br/><br/>',
   quote: '"It never gets easier, you just go faster"',
   quoteSource: 'Greg LeMond',
   experience: [
