@@ -15,7 +15,7 @@
   }
 
   &--light {
-    font-family: HelveticaNowDisplay-Th, Arial;
+    font-family: HelveticaNowDisplay-Th, Arial, serif;
   }
 }
 
@@ -28,7 +28,7 @@
   }
 
   &--light {
-	  font-family: HelveticaNowDisplay-Th, Arial;
+    font-family: HelveticaNowDisplay-Th, Arial, serif;
   }
 
   &--side {
@@ -58,7 +58,7 @@
       width: 100%;
       background-color: black;
       left: 0;
-      bottom: 0px;
+      bottom: 0;
     }
   }
 }
