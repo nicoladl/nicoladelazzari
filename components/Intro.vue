@@ -12,7 +12,7 @@
           <span class="item"></span>
         </span>
         <span class="title__row reveal">
-          <span class="item">Portfolio</span>
+          <span class="item">Profile</span>
         </span>
       </h1>
     </div>
