@@ -1,7 +1,7 @@
 export const state = () => ({
   menu: [
     {
-      label: '1985<br />2025',
+      label: '1985<br />2026',
       slug: 'intro'
     }
   ],
