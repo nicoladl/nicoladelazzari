@@ -6,44 +6,30 @@
   "author": "Nicola",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup --allow-dirty"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.jsx --ignore-path .gitignore .",
+    "format": "prettier --write ."
   },
   "dependencies": {
-    "@nuxtjs/pwa": "^2.6.0",
-    "cross-env": "^5.2.0",
     "flexboxgrid": "^6.3.1",
     "gsap": "^2.1.2",
     "mobile-detect": "^1.4.3",
     "normalize-wheel": "^1.0.1",
-    "nuxt": "^2.17.3",
-    "sass-mq": "6.0.0",
-    "vue-gtag": "^1.16.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config": "^0.0.1",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^7.0.0",
-    "eslint-config-prettier": "^4.2.0",
-    "eslint-config-standard": ">=12.0.0",
-    "eslint-loader": "^4.0.2",
-    "eslint-plugin-import": ">=2.16.0",
-    "eslint-plugin-jest": ">=22.3.0",
-    "eslint-plugin-node": ">=8.0.1",
-    "eslint-plugin-nuxt": ">=0.4.2",
-    "eslint-plugin-prettier": "^3.0.1",
-    "eslint-plugin-promise": ">=4.0.1",
-    "eslint-plugin-standard": ">=4.0.0",
-    "eslint-plugin-vue": "^5.2.2",
-    "sass": "^1.17.0",
-    "nodemon": "^1.18.9",
-    "prettier": "^1.17.0",
-    "sass-loader": "^7.1.0"
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.1.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.0.0",
+    "sass": "^1.99.0",
+    "sass-mq": "^6.0.0",
+    "vite": "^8.0.10"
   }
 }
